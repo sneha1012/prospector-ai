@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  prospector:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./gaf_contractors.db:/app/gaf_contractors.db
+      - ./output:/app/output
+    environment:
+      - GAF_DB_PATH=gaf_contractors.db
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    restart: unless-stopped
