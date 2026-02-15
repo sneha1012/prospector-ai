@@ -1,0 +1,2396 @@
+{
+  "contractors": [
+    {
+      "contractor_id": "1113654",
+      "name": "Matute Roofing",
+      "slug": "matute-roofing-1113654",
+      "address": null,
+      "city": "Wayne",
+      "state": "NJ",
+      "postal_code": "07470",
+      "country": "USA",
+      "phone": "(973) 618-6489",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 452,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1113654/residential/profile-photos/UKx99T71qWH6UHRNrU.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/wayne/matute-roofing-1113654",
+      "scraped_at": "2026-02-12T20:46:48.623771+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1004859",
+      "name": "Preferred Exterior Corp",
+      "slug": "preferred-exterior-corp-1004859",
+      "address": null,
+      "city": "New Hyde Park",
+      "state": "NY",
+      "postal_code": "11040",
+      "country": "USA",
+      "phone": "(516) 354-7252",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 50,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1004859/residential/profile-photos/UyqyxYx0Rc4e2WdoiF.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/new-hyde-park/preferred-exterior-corp-1004859",
+      "scraped_at": "2026-02-12T20:46:48.623799+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1116285",
+      "name": "Allied Brothers Home Corporation",
+      "slug": "allied-brothers-home-corporation-1116285",
+      "address": null,
+      "city": "Wayne",
+      "state": "NJ",
+      "postal_code": "07470",
+      "country": "USA",
+      "phone": "(973) 566-0060",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 249,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1116285/residential/profile-photos/TUpXccX0C29kvecJ0C.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/wayne/allied-brothers-home-corporation-1116285",
+      "scraped_at": "2026-02-12T20:46:48.623811+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1141159",
+      "name": "Jersey Roofing LLC",
+      "slug": "jersey-roofing-llc-1141159",
+      "address": null,
+      "city": "Garfield",
+      "state": "NJ",
+      "postal_code": "07026",
+      "country": "USA",
+      "phone": "(201) 982-2718",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 434,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1141159/residential/profile-photos/Tjp5K407dlb8QIExsJ.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/garfield/jersey-roofing-llc-1141159",
+      "scraped_at": "2026-02-12T20:46:48.623823+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1139561",
+      "name": "Donny's Home Improvement",
+      "slug": "donnys-home-improvement-1139561",
+      "address": null,
+      "city": "Elmwood Park",
+      "state": "NJ",
+      "postal_code": "07407",
+      "country": "USA",
+      "phone": "(973) 333-6364",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 114,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1139561/residential/profile-photos/Tbi8Ue51xpCGSEDjsU.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/elmwood-park/donnys-home-improvement-1139561",
+      "scraped_at": "2026-02-12T20:46:48.623831+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1100696",
+      "name": "Brothers Aluminum Home Improvements Corp",
+      "slug": "brothers-aluminum-home-improvements-corp-1100696",
+      "address": null,
+      "city": "Valley Stream",
+      "state": "NY",
+      "postal_code": "11580",
+      "country": "USA",
+      "phone": "(516) 872-0947",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 358,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1100696/residential/profile-photos/TEMSwdA0nVpumVav8u.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/valley-stream/brothers-aluminum-home-improvements-corp-1100696",
+      "scraped_at": "2026-02-12T20:46:48.623840+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1113999",
+      "name": "Blue Nail Exteriors",
+      "slug": "blue-nail-exteriors-1113999",
+      "address": null,
+      "city": "Montville",
+      "state": "NJ",
+      "postal_code": "07045",
+      "country": "USA",
+      "phone": "(973) 937-8876",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 325,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1113999/residential/profile-photos/UaXHDV01jHbxA144Jd.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/montville/blue-nail-exteriors-1113999",
+      "scraped_at": "2026-02-12T20:46:48.623847+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1001655",
+      "name": "The Great American Roofing Company",
+      "slug": "the-great-american-roofing-company-1001655",
+      "address": null,
+      "city": "Ramsey",
+      "state": "NJ",
+      "postal_code": "07446",
+      "country": "USA",
+      "phone": "(201) 825-2955",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 150,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1001655/residential/profile-photos/TEOeAgG1dCHBHb1Ggx.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/ramsey/the-great-american-roofing-company-1001655",
+      "scraped_at": "2026-02-12T20:46:48.623856+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1005677",
+      "name": "American Roofing and Siding",
+      "slug": "american-roofing-and-siding-1005677",
+      "address": null,
+      "city": "Nutley",
+      "state": "NJ",
+      "postal_code": "07110",
+      "country": "USA",
+      "phone": "(973) 542-0710",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 128,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1005677/residential/profile-photos/T5exRXO2PP1BKT4wqU.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/nutley/american-roofing-and-siding-1005677",
+      "scraped_at": "2026-02-12T20:46:48.623869+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1003844",
+      "name": "John Goess Roofing Inc",
+      "slug": "john-goess-roofing-inc-1003844",
+      "address": null,
+      "city": "Westbury",
+      "state": "NY",
+      "postal_code": "11590",
+      "country": "USA",
+      "phone": "(516) 541-4597",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 59,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1003844/residential/profile-photos/TEMnSkA6uQXMxe3g2U.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/westbury/john-goess-roofing-inc-1003844",
+      "scraped_at": "2026-02-12T20:46:48.623877+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1130919",
+      "name": "Grapevine Pro",
+      "slug": "grapevine-pro-1130919",
+      "address": null,
+      "city": "Iselin",
+      "state": "NJ",
+      "postal_code": "08830",
+      "country": "USA",
+      "phone": "(732) 335-7770",
+      "website": null,
+      "description": null,
+      "rating": 4.7,
+      "review_count": 433,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "President's Club Award",
+          "type": "award"
+        },
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1130919/residential/profile-photos/Tn7Yy4w1YYSlroVbWu.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/iselin/grapevine-pro-1130919",
+      "scraped_at": "2026-02-12T20:46:48.623890+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1002688",
+      "name": "Complete Roof Systems",
+      "slug": "complete-roof-systems-1002688",
+      "address": null,
+      "city": "Dumont",
+      "state": "NJ",
+      "postal_code": "07628",
+      "country": "USA",
+      "phone": "(201) 387-1846",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 362,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1002688/residential/profile-photos/TEMwlJg5rc9zQcS8jA.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/dumont/complete-roof-systems-1002688",
+      "scraped_at": "2026-02-12T20:46:48.623898+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1101267",
+      "name": "AK Gatsios Inc",
+      "slug": "ak-gatsios-inc-1101267",
+      "address": null,
+      "city": "Bronx",
+      "state": "NY",
+      "postal_code": "10465",
+      "country": "USA",
+      "phone": "(646) 302-5175",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 316,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1101267/residential/profile-photos/TEMQoNzzMZswVF17hV.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/bronx/ak-gatsios-inc-1101267",
+      "scraped_at": "2026-02-12T20:46:48.623905+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1143942",
+      "name": "RH Renovation LLC",
+      "slug": "rh-renovation-llc-1143942",
+      "address": null,
+      "city": "Bronx",
+      "state": "NY",
+      "postal_code": "10461",
+      "country": "USA",
+      "phone": "(646) 818-4305",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 305,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1143942/residential/profile-photos/UZnC3ry2ZSdsZ8MWAC.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/bronx/rh-renovation-llc-1143942",
+      "scraped_at": "2026-02-12T20:46:48.623912+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1146349",
+      "name": "DeFalco Roofing",
+      "slug": "defalco-roofing-1146349",
+      "address": null,
+      "city": "Fairfield",
+      "state": "NJ",
+      "postal_code": "07004",
+      "country": "USA",
+      "phone": "(973) 255-0374",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 303,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1146349/residential/profile-photos/Um1kUjL5ZveGW393lE.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/fairfield/defalco-roofing-1146349",
+      "scraped_at": "2026-02-12T20:46:48.623919+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1107024",
+      "name": "MNT Roofing & Siding",
+      "slug": "mnt-roofing-siding-1107024",
+      "address": null,
+      "city": "Totowa",
+      "state": "NJ",
+      "postal_code": "07512",
+      "country": "USA",
+      "phone": "(973) 758-7077",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 134,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1107024/residential/profile-photos/TEMESrs89aARcKGQeL.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/totowa/mnt-roofing-siding-1107024",
+      "scraped_at": "2026-02-12T20:46:48.623925+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1148691",
+      "name": "Future Remodeling",
+      "slug": "future-remodeling-1148691",
+      "address": null,
+      "city": "Bergenfield",
+      "state": "NJ",
+      "postal_code": "07621",
+      "country": "USA",
+      "phone": "(866) 221-1433",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 119,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/bergenfield/future-remodeling-1148691",
+      "scraped_at": "2026-02-12T20:46:48.623932+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1143894",
+      "name": "Golden Key Construction Group Inc",
+      "slug": "golden-key-construction-group-inc-1143894",
+      "address": null,
+      "city": "Staten Island",
+      "state": "NY",
+      "postal_code": "10304",
+      "country": "USA",
+      "phone": "(929) 353-9227",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 113,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1143894/residential/profile-photos/UOGrH4Fw3DojoSPNut.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/staten-island/golden-key-construction-group-inc-1143894",
+      "scraped_at": "2026-02-12T20:46:48.623939+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1112309",
+      "name": "One Call Construction",
+      "slug": "one-call-construction-1112309",
+      "address": null,
+      "city": "Hawthorne",
+      "state": "NJ",
+      "postal_code": "07506",
+      "country": "USA",
+      "phone": "(800) 747-0283",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 108,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1112309/residential/profile-photos/TEM1cFX51IsSc0IKo3.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/hawthorne/one-call-construction-1112309",
+      "scraped_at": "2026-02-12T20:46:48.623945+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1139367",
+      "name": "Aura Home Exteriors",
+      "slug": "aura-home-exteriors-1139367",
+      "address": null,
+      "city": "Edison",
+      "state": "NJ",
+      "postal_code": "08817",
+      "country": "USA",
+      "phone": "(732) 851-8028",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 104,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1139367/residential/profile-photos/TuP1Aze8xVpSah30jC.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/edison/aura-home-exteriors-1139367",
+      "scraped_at": "2026-02-12T20:46:48.623960+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1150334",
+      "name": "Apex Roofing Solutions",
+      "slug": "apex-roofing-solutions-1150334",
+      "address": null,
+      "city": "Woodland Park",
+      "state": "NJ",
+      "postal_code": "07424",
+      "country": "USA",
+      "phone": "(973) 558-3045",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 89,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1150334/residential/profile-photos/UbTjntY0T8Q7mmCnRU.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/woodland-park/apex-roofing-solutions-1150334",
+      "scraped_at": "2026-02-12T20:46:48.623971+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1118403",
+      "name": "Reisch Roofing and Construction LLC",
+      "slug": "reisch-roofing-and-construction-llc-1118403",
+      "address": null,
+      "city": "Pompton Plains",
+      "state": "NJ",
+      "postal_code": "07444",
+      "country": "USA",
+      "phone": "(855) 734-7241",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 70,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1118403/residential/profile-photos/TELmcxw0cdXURsZmqm.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/pompton-plains/reisch-roofing-and-construction-llc-1118403",
+      "scraped_at": "2026-02-12T20:46:48.623978+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1149465",
+      "name": "Revive Home Remodeling Group LLC",
+      "slug": "revive-home-remodeling-group-llc-1149465",
+      "address": null,
+      "city": "Woodbridge",
+      "state": "NJ",
+      "postal_code": "07095",
+      "country": "USA",
+      "phone": "(908) 420-5098",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 64,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/woodbridge/revive-home-remodeling-group-llc-1149465",
+      "scraped_at": "2026-02-12T20:46:48.623985+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1104793",
+      "name": "Kelly Exteriors",
+      "slug": "kelly-exteriors-1104793",
+      "address": null,
+      "city": "Emerson",
+      "state": "NJ",
+      "postal_code": "07630",
+      "country": "USA",
+      "phone": "(201) 977-1076",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 59,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1104793/residential/profile-photos/U69vFxj2f6ousQx6NT.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/emerson/kelly-exteriors-1104793",
+      "scraped_at": "2026-02-12T20:46:48.623992+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1131213",
+      "name": "High Caliber Renovations LLC",
+      "slug": "high-caliber-renovations-llc-1131213",
+      "address": null,
+      "city": "Rahway",
+      "state": "NJ",
+      "postal_code": "07065",
+      "country": "USA",
+      "phone": "(908) 472-5096",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 58,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/rahway/high-caliber-renovations-llc-1131213",
+      "scraped_at": "2026-02-12T20:46:48.623998+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1000079",
+      "name": "ARM Roofing",
+      "slug": "arm-roofing-1000079",
+      "address": null,
+      "city": "Elmsford",
+      "state": "NY",
+      "postal_code": "10523",
+      "country": "USA",
+      "phone": "(914) 347-2763",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 10,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1000079/residential/profile-photos/TEOlznGujiGjw5gSYT.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/elmsford/arm-roofing-1000079",
+      "scraped_at": "2026-02-12T20:46:48.624011+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1135593",
+      "name": "All Seasons Roofing LLC",
+      "slug": "all-seasons-roofing-llc-1135593",
+      "address": null,
+      "city": "Staten Island",
+      "state": "NY",
+      "postal_code": "10312",
+      "country": "USA",
+      "phone": "(718) 200-1802",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 6,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/staten-island/all-seasons-roofing-llc-1135593",
+      "scraped_at": "2026-02-12T20:46:48.624018+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1004925",
+      "name": "Patwood Roofing Co Inc",
+      "slug": "patwood-roofing-co-inc-1004925",
+      "address": null,
+      "city": "Little Falls",
+      "state": "NJ",
+      "postal_code": "07424",
+      "country": "USA",
+      "phone": "(973) 256-0400",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 5,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/little-falls/patwood-roofing-co-inc-1004925",
+      "scraped_at": "2026-02-12T20:46:48.624025+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1120367",
+      "name": "A&S Construction & Son Inc",
+      "slug": "as-construction-son-inc-1120367",
+      "address": null,
+      "city": "Brooklyn",
+      "state": "NY",
+      "postal_code": "11228",
+      "country": "USA",
+      "phone": "(347) 326-4098",
+      "website": null,
+      "description": null,
+      "rating": 5.0,
+      "review_count": 1,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1120367/residential/profile-photos/TELhIhJAYqkqGqmXtj.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/brooklyn/as-construction-son-inc-1120367",
+      "scraped_at": "2026-02-12T20:46:48.624035+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1005906",
+      "name": "Long Island Roofing and Repairs Service",
+      "slug": "long-island-roofing-and-repairs-service-1005906",
+      "address": null,
+      "city": "North Bellmore",
+      "state": "NY",
+      "postal_code": "11710",
+      "country": "USA",
+      "phone": "(516) 221-9100",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 360,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1005906/residential/profile-photos/TEMaQSk0EvOT3aHB5S.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/north-bellmore/long-island-roofing-and-repairs-service-1005906",
+      "scraped_at": "2026-02-12T20:46:48.624042+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1004426",
+      "name": "R&G Services Corp",
+      "slug": "rg-services-corp-1004426",
+      "address": null,
+      "city": "Orange",
+      "state": "NJ",
+      "postal_code": "07050",
+      "country": "USA",
+      "phone": "(973) 324-9461",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 293,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1004426/residential/profile-photos/TEM2eEdubafmCNgwdZ.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/orange/rg-services-corp-1004426",
+      "scraped_at": "2026-02-12T20:46:48.624051+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1005149",
+      "name": "American Home Contractors Inc",
+      "slug": "american-home-contractors-inc-1005149",
+      "address": null,
+      "city": "Florham Park",
+      "state": "NJ",
+      "postal_code": "07932",
+      "country": "USA",
+      "phone": "(908) 771-0123",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 258,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1005149/residential/profile-photos/TEMgDWhvBuz5hwShuQ.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/florham-park/american-home-contractors-inc-1005149",
+      "scraped_at": "2026-02-12T20:46:48.624058+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1100484",
+      "name": "The Carpenter's Touch LLC",
+      "slug": "the-carpenters-touch-llc-1100484",
+      "address": null,
+      "city": "Livingston",
+      "state": "NJ",
+      "postal_code": "07039",
+      "country": "USA",
+      "phone": "(973) 994-1085",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 160,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1100484/residential/profile-photos/TEMUM4WzkWKEl6xUHX.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/livingston/the-carpenters-touch-llc-1100484",
+      "scraped_at": "2026-02-12T20:46:48.624065+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1100365",
+      "name": "Above & Beyond Exterior Remodelers",
+      "slug": "above-beyond-exterior-remodelers-1100365",
+      "address": null,
+      "city": "Westfield",
+      "state": "NJ",
+      "postal_code": "07090",
+      "country": "USA",
+      "phone": "(732) 322-8482",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 146,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/westfield/above-beyond-exterior-remodelers-1100365",
+      "scraped_at": "2026-02-12T20:46:48.624071+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1111706",
+      "name": "A L Best Construction Corp",
+      "slug": "a-l-best-construction-corp-1111706",
+      "address": null,
+      "city": "Queens Village",
+      "state": "NY",
+      "postal_code": "11429",
+      "country": "USA",
+      "phone": "(800) 516-1424",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 117,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1111706/residential/profile-photos/V2Sa2jF59rrMzqBemX.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/queens-village/a-l-best-construction-corp-1111706",
+      "scraped_at": "2026-02-12T20:46:48.624078+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1112549",
+      "name": "LGM Roofing Contractors",
+      "slug": "lgm-roofing-contractors-1112549",
+      "address": null,
+      "city": "Bloomfield",
+      "state": "NJ",
+      "postal_code": "07003",
+      "country": "USA",
+      "phone": "(973) 707-2154",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 108,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1112549/residential/profile-photos/TEM17Zb41MdSyoRDT5.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/bloomfield/lgm-roofing-contractors-1112549",
+      "scraped_at": "2026-02-12T20:46:48.624084+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1119370",
+      "name": "Lojas Home Improvement Plus LLC",
+      "slug": "lojas-home-improvement-plus-llc-1119370",
+      "address": null,
+      "city": "Union",
+      "state": "NJ",
+      "postal_code": "07083",
+      "country": "USA",
+      "phone": "(973) 757-3958",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 108,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1119370/residential/profile-photos/TVOTwDmzsrt21rkCWG.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/union/lojas-home-improvement-plus-llc-1119370",
+      "scraped_at": "2026-02-12T20:46:48.624090+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1121148",
+      "name": "American Star Contractor Corp",
+      "slug": "american-star-contractor-corp-1121148",
+      "address": null,
+      "city": "Bronx",
+      "state": "NY",
+      "postal_code": "10462",
+      "country": "USA",
+      "phone": "(862) 294-9990",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 87,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1121148/residential/profile-photos/THvbcaUAn8n6e1hkBX.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/bronx/american-star-contractor-corp-1121148",
+      "scraped_at": "2026-02-12T20:46:48.624097+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1108705",
+      "name": "American Quality Home Improvements LLC",
+      "slug": "american-quality-home-improvements-llc-1108705",
+      "address": null,
+      "city": "Belleville",
+      "state": "NJ",
+      "postal_code": "07109",
+      "country": "USA",
+      "phone": "(888) 205-1925",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 84,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1108705/residential/profile-photos/TltVnJ1tPf1DrXS5hQ.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/belleville/american-quality-home-improvements-llc-1108705",
+      "scraped_at": "2026-02-12T20:46:48.624103+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1142742",
+      "name": "KNA Roofing",
+      "slug": "kna-roofing-1142742",
+      "address": null,
+      "city": "New York",
+      "state": "NY",
+      "postal_code": "10113",
+      "country": "USA",
+      "phone": "(718) 288-6808",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 74,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/new-york/kna-roofing-1142742",
+      "scraped_at": "2026-02-12T20:46:48.624109+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1139996",
+      "name": "MK Best Roofing",
+      "slug": "mk-best-roofing-1139996",
+      "address": null,
+      "city": "Roosevelt",
+      "state": "NY",
+      "postal_code": "11575",
+      "country": "USA",
+      "phone": "(631) 645-2710",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 54,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/roosevelt/mk-best-roofing-1139996",
+      "scraped_at": "2026-02-12T20:46:48.624118+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1002346",
+      "name": "RK Roofing Inc",
+      "slug": "rk-roofing-inc-1002346",
+      "address": null,
+      "city": "Caldwell",
+      "state": "NJ",
+      "postal_code": "07006",
+      "country": "USA",
+      "phone": "(973) 226-2605",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 47,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1002346/residential/profile-photos/TEOaP6wviyUL3aq8IX.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/caldwell/rk-roofing-inc-1002346",
+      "scraped_at": "2026-02-12T20:46:48.624124+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1002371",
+      "name": "Rebuild America Inc",
+      "slug": "rebuild-america-inc-1002371",
+      "address": null,
+      "city": "Mineola",
+      "state": "NY",
+      "postal_code": "11501",
+      "country": "USA",
+      "phone": "(516) 535-9293",
+      "website": null,
+      "description": null,
+      "rating": 4.9,
+      "review_count": 34,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1002371/residential/profile-photos/TEOaH5wuZ9AGfM5BtW.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/mineola/rebuild-america-inc-1002371",
+      "scraped_at": "2026-02-12T20:46:48.624133+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1109076",
+      "name": "Royal Renovators Inc",
+      "slug": "royal-renovators-inc-1109076",
+      "address": null,
+      "city": "Forest Hills",
+      "state": "NY",
+      "postal_code": "11375",
+      "country": "USA",
+      "phone": "(718) 414-6067",
+      "website": null,
+      "description": null,
+      "rating": 4.8,
+      "review_count": 240,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1109076/residential/profile-photos/TEM96WJ3MG3rdYFgLt.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/forest-hills/royal-renovators-inc-1109076",
+      "scraped_at": "2026-02-12T20:46:48.624139+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1118752",
+      "name": "A&J Professional Services Inc",
+      "slug": "aj-professional-services-inc-1118752",
+      "address": null,
+      "city": "South Plainfield",
+      "state": "NJ",
+      "postal_code": "07080",
+      "country": "USA",
+      "phone": "(908) 432-7081",
+      "website": null,
+      "description": null,
+      "rating": 4.8,
+      "review_count": 220,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/south-plainfield/aj-professional-services-inc-1118752",
+      "scraped_at": "2026-02-12T20:46:48.624145+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1103353",
+      "name": "B&B Siding and Roofing",
+      "slug": "bb-siding-and-roofing-1103353",
+      "address": null,
+      "city": "Staten Island",
+      "state": "NY",
+      "postal_code": "10314",
+      "country": "USA",
+      "phone": "(718) 757-2904",
+      "website": null,
+      "description": null,
+      "rating": 4.8,
+      "review_count": 174,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1103353/residential/profile-photos/TEMM6w76EgI8Qw7GHs.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/staten-island/bb-siding-and-roofing-1103353",
+      "scraped_at": "2026-02-12T20:46:48.624152+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1003499",
+      "name": "CKG Contractors Inc",
+      "slug": "ckg-contractors-inc-1003499",
+      "address": null,
+      "city": "Parsippany",
+      "state": "NJ",
+      "postal_code": "07054",
+      "country": "USA",
+      "phone": "(973) 599-0811",
+      "website": null,
+      "description": null,
+      "rating": 4.8,
+      "review_count": 150,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1003499/residential/profile-photos/UPLEUZl2YHQ46jOmaI.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/parsippany/ckg-contractors-inc-1003499",
+      "scraped_at": "2026-02-12T20:46:48.624242+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1112005",
+      "name": "Kamtech Restoration Corp",
+      "slug": "kamtech-restoration-corp-1112005",
+      "address": null,
+      "city": "Brooklyn",
+      "state": "NY",
+      "postal_code": "11228",
+      "country": "USA",
+      "phone": "(347) 860-1109",
+      "website": null,
+      "description": null,
+      "rating": 4.8,
+      "review_count": 146,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1112005/residential/profile-photos/TEM2VfR3MvjjHlPIVh.jpeg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/brooklyn/kamtech-restoration-corp-1112005",
+      "scraped_at": "2026-02-12T20:46:48.624250+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1136200",
+      "name": "Seci Construction Inc",
+      "slug": "seci-construction-inc-1136200",
+      "address": null,
+      "city": "Clifton",
+      "state": "NJ",
+      "postal_code": "07012",
+      "country": "USA",
+      "phone": "(866) 572-7324",
+      "website": null,
+      "description": null,
+      "rating": 4.8,
+      "review_count": 122,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1136200/residential/profile-photos/TngmNFJ8e1Vzp7dOFy.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/clifton/seci-construction-inc-1136200",
+      "scraped_at": "2026-02-12T20:46:48.624257+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1100517",
+      "name": "R Jenny Construction",
+      "slug": "r-jenny-construction-1100517",
+      "address": null,
+      "city": "Orange",
+      "state": "NJ",
+      "postal_code": "07050",
+      "country": "USA",
+      "phone": "(973) 673-7663",
+      "website": null,
+      "description": null,
+      "rating": 4.8,
+      "review_count": 24,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1100517/residential/profile-photos/TEMU8iR0gk52UCHIWm.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/orange/r-jenny-construction-1100517",
+      "scraped_at": "2026-02-12T20:46:48.624265+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1104750",
+      "name": "Dior Construction",
+      "slug": "dior-construction-1104750",
+      "address": null,
+      "city": "Bergenfield",
+      "state": "NJ",
+      "postal_code": "07621",
+      "country": "USA",
+      "phone": "(201) 472-5462",
+      "website": null,
+      "description": null,
+      "rating": 4.7,
+      "review_count": 274,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1104750/residential/profile-photos/UY55HWy0f1nNdF1bm9.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/bergenfield/dior-construction-1104750",
+      "scraped_at": "2026-02-12T20:46:48.624275+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1002062",
+      "name": "Abraham Roofing",
+      "slug": "abraham-roofing-1002062",
+      "address": null,
+      "city": "Lynbrook",
+      "state": "NY",
+      "postal_code": "11563",
+      "country": "USA",
+      "phone": "(800) 347-0913",
+      "website": null,
+      "description": null,
+      "rating": 4.7,
+      "review_count": 112,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/lynbrook/abraham-roofing-1002062",
+      "scraped_at": "2026-02-12T20:46:48.624282+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1141740",
+      "name": "SmartRoof LLC",
+      "slug": "smartroof-llc-1141740",
+      "address": null,
+      "city": "Parsippany",
+      "state": "NJ",
+      "postal_code": "07054",
+      "country": "USA",
+      "phone": "(844) 334-1864",
+      "website": null,
+      "description": null,
+      "rating": 4.7,
+      "review_count": 89,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1141740/residential/profile-photos/USFWYAgu9SyoKAfUaD.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/parsippany/smartroof-llc-1141740",
+      "scraped_at": "2026-02-12T20:46:48.624288+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1103443",
+      "name": "Gorman & Carbone Roofing Contractors",
+      "slug": "gorman-carbone-roofing-contractors-1103443",
+      "address": null,
+      "city": "Staten Island",
+      "state": "NY",
+      "postal_code": "10307",
+      "country": "USA",
+      "phone": "(718) 317-4023",
+      "website": null,
+      "description": null,
+      "rating": 4.7,
+      "review_count": 27,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1103443/residential/profile-photos/Ta5vMRM2QzVgTXuvLv.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/staten-island/gorman-carbone-roofing-contractors-1103443",
+      "scraped_at": "2026-02-12T20:46:48.624295+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1100174",
+      "name": "Homestead Roofing Company",
+      "slug": "homestead-roofing-company-1100174",
+      "address": null,
+      "city": "Ridgewood",
+      "state": "NJ",
+      "postal_code": "07450",
+      "country": "USA",
+      "phone": "(201) 444-2233",
+      "website": null,
+      "description": null,
+      "rating": 4.6,
+      "review_count": 171,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1100174/residential/profile-photos/TEMVjVmvOEtdUTnkG8.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/ridgewood/homestead-roofing-company-1100174",
+      "scraped_at": "2026-02-12T20:46:48.624301+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1006133",
+      "name": "Acorn Home Improvements Inc",
+      "slug": "acorn-home-improvements-inc-1006133",
+      "address": null,
+      "city": "Whippany",
+      "state": "NJ",
+      "postal_code": "07981",
+      "country": "USA",
+      "phone": "(973) 386-9604",
+      "website": null,
+      "description": null,
+      "rating": 4.6,
+      "review_count": 73,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1006133/residential/profile-photos/TEMYeoi2twaJwzp9tb.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/whippany/acorn-home-improvements-inc-1006133",
+      "scraped_at": "2026-02-12T20:46:48.624308+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1101248",
+      "name": "Garden State Roofing & Siding",
+      "slug": "garden-state-roofing-siding-1101248",
+      "address": null,
+      "city": "North Middletown",
+      "state": "NJ",
+      "postal_code": "07748",
+      "country": "USA",
+      "phone": "(732) 787-5545",
+      "website": null,
+      "description": null,
+      "rating": 4.6,
+      "review_count": 64,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1101248/residential/profile-photos/UUtN5eyzOfCNk4GfHs.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/north-middletown/garden-state-roofing-siding-1101248",
+      "scraped_at": "2026-02-12T20:46:48.624316+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1003072",
+      "name": "Premium Home Improvements",
+      "slug": "premium-home-improvements-1003072",
+      "address": null,
+      "city": "Berkeley Heights",
+      "state": "NJ",
+      "postal_code": "07922",
+      "country": "USA",
+      "phone": "(908) 898-1420",
+      "website": null,
+      "description": null,
+      "rating": 4.6,
+      "review_count": 55,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1003072/residential/profile-photos/TEMsmoi5ZfZtObvJAo.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/berkeley-heights/premium-home-improvements-1003072",
+      "scraped_at": "2026-02-12T20:46:48.624322+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1144121",
+      "name": "Green Star Exteriors",
+      "slug": "green-star-exteriors-1144121",
+      "address": null,
+      "city": "South Plainfield",
+      "state": "NJ",
+      "postal_code": "07080",
+      "country": "USA",
+      "phone": "(800) 625-0021",
+      "website": null,
+      "description": null,
+      "rating": 4.6,
+      "review_count": 33,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/south-plainfield/green-star-exteriors-1144121",
+      "scraped_at": "2026-02-12T20:46:48.624329+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1123198",
+      "name": "Abraham Roofing & Siding",
+      "slug": "abraham-roofing-siding-1123198",
+      "address": null,
+      "city": "Union",
+      "state": "NJ",
+      "postal_code": "07083",
+      "country": "USA",
+      "phone": "(973) 379-1300",
+      "website": null,
+      "description": null,
+      "rating": 4.6,
+      "review_count": 10,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/union/abraham-roofing-siding-1123198",
+      "scraped_at": "2026-02-12T20:46:48.624335+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1005319",
+      "name": "Classic Remodeling Corp",
+      "slug": "classic-remodeling-corp-1005319",
+      "address": null,
+      "city": "Paramus",
+      "state": "NJ",
+      "postal_code": "07652",
+      "country": "USA",
+      "phone": "(201) 745-8065",
+      "website": null,
+      "description": null,
+      "rating": 4.5,
+      "review_count": 56,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1005319/residential/profile-photos/TEMekfC4dZySIsbHCJ.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/paramus/classic-remodeling-corp-1005319",
+      "scraped_at": "2026-02-12T20:46:48.624348+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1006185",
+      "name": "FM Construction Group LLC",
+      "slug": "fm-construction-group-llc-1006185",
+      "address": null,
+      "city": "East Orange",
+      "state": "NJ",
+      "postal_code": "07018",
+      "country": "USA",
+      "phone": "(973) 989-1616",
+      "website": null,
+      "description": null,
+      "rating": 4.3,
+      "review_count": 36,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/east-orange/fm-construction-group-llc-1006185",
+      "scraped_at": "2026-02-12T20:46:48.624355+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1106994",
+      "name": "A1 Affordable Construction",
+      "slug": "a1-affordable-construction-1106994",
+      "address": null,
+      "city": "Clifton",
+      "state": "NJ",
+      "postal_code": "07011",
+      "country": "USA",
+      "phone": "(800) 865-0053",
+      "website": null,
+      "description": null,
+      "rating": 4.2,
+      "review_count": 489,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1106994/residential/profile-photos/UjflP073zznDBHksVW.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/clifton/a1-affordable-construction-1106994",
+      "scraped_at": "2026-02-12T20:46:48.624363+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1109046",
+      "name": "American Siding Construction Corp",
+      "slug": "american-siding-construction-corp-1109046",
+      "address": null,
+      "city": "Newark",
+      "state": "NJ",
+      "postal_code": "07105",
+      "country": "USA",
+      "phone": "(201) 772-7713",
+      "website": null,
+      "description": null,
+      "rating": 4.1,
+      "review_count": 27,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1109046/residential/profile-photos/TroWprVARWazxFaC1x.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/newark/american-siding-construction-corp-1109046",
+      "scraped_at": "2026-02-12T20:46:48.624369+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1136966",
+      "name": "JC Master Inc",
+      "slug": "jc-master-inc-1136966",
+      "address": null,
+      "city": "Richmond Hill",
+      "state": "NY",
+      "postal_code": "11418",
+      "country": "USA",
+      "phone": "(347) 400-2611",
+      "website": null,
+      "description": null,
+      "rating": 4.0,
+      "review_count": 92,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1136966/residential/profile-photos/UX8hl1E0ckcQziqLJm.png?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/richmond-hill/jc-master-inc-1136966",
+      "scraped_at": "2026-02-12T20:46:48.624375+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1004877",
+      "name": "Nations Roof LLC",
+      "slug": "nations-roof-llc-1004877",
+      "address": null,
+      "city": "Yonkers",
+      "state": "NY",
+      "postal_code": "10701",
+      "country": "USA",
+      "phone": "(732) 406-4471",
+      "website": null,
+      "description": null,
+      "rating": 4.0,
+      "review_count": 4,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/yonkers/nations-roof-llc-1004877",
+      "scraped_at": "2026-02-12T20:46:48.624381+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1101120",
+      "name": "Pravco Inc",
+      "slug": "pravco-inc-1101120",
+      "address": null,
+      "city": "Rahway",
+      "state": "NJ",
+      "postal_code": "07065",
+      "country": "USA",
+      "phone": "(732) 388-0800",
+      "website": null,
+      "description": null,
+      "rating": 3.7,
+      "review_count": 10,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/rahway/pravco-inc-1101120",
+      "scraped_at": "2026-02-12T20:46:48.624387+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1116337",
+      "name": "Carework Construction LLC",
+      "slug": "carework-construction-llc-1116337",
+      "address": null,
+      "city": "Lyndhurst",
+      "state": "NJ",
+      "postal_code": "07071",
+      "country": "USA",
+      "phone": "(201) 998-8960",
+      "website": null,
+      "description": null,
+      "rating": 0.0,
+      "review_count": 0,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/lyndhurst/carework-construction-llc-1116337",
+      "scraped_at": "2026-02-12T20:46:48.624393+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1106495",
+      "name": "DC Services",
+      "slug": "dc-services-1106495",
+      "address": null,
+      "city": "Edison",
+      "state": "NJ",
+      "postal_code": "08837",
+      "country": "USA",
+      "phone": "(973) 991-1888",
+      "website": null,
+      "description": null,
+      "rating": 0.0,
+      "review_count": 0,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/edison/dc-services-1106495",
+      "scraped_at": "2026-02-12T20:46:48.624400+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1144075",
+      "name": "Happy Remodeling",
+      "slug": "happy-remodeling-1144075",
+      "address": null,
+      "city": "Long Beach",
+      "state": "NY",
+      "postal_code": "11561",
+      "country": "USA",
+      "phone": "(516) 993-8556",
+      "website": null,
+      "description": null,
+      "rating": 0.0,
+      "review_count": 0,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "/-/media/images/contractor-profile/contractor-profile-placeholder/no_profile_image.svg"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ny/long-beach/happy-remodeling-1144075",
+      "scraped_at": "2026-02-12T20:46:48.624406+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    },
+    {
+      "contractor_id": "1111401",
+      "name": "REK Roofing Services",
+      "slug": "rek-roofing-services-1111401",
+      "address": null,
+      "city": "Tenafly",
+      "state": "NJ",
+      "postal_code": "07670",
+      "country": "USA",
+      "phone": "(646) 721-4431",
+      "website": null,
+      "description": null,
+      "rating": 0.0,
+      "review_count": 0,
+      "years_in_business": null,
+      "number_of_employees": null,
+      "state_license_number": null,
+      "certifications": [
+        {
+          "name": "GAF Master Elite®",
+          "type": "certification"
+        }
+      ],
+      "profile_photo_urls": [
+        "https://services.gaf.com/service-assets/contractors/1111401/residential/profile-photos/TEM4Jwbx8HSj9XIBw0.jpg?width=120"
+      ],
+      "job_photo_urls": [],
+      "reviews": [],
+      "profile_url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/nj/tenafly/rek-roofing-services-1111401",
+      "scraped_at": "2026-02-12T20:46:48.624417+00:00",
+      "search_postal_code": "10013",
+      "search_distance": 25
+    }
+  ],
+  "search_postal_code": "10013",
+  "search_distance": 25,
+  "total_found": 71,
+  "scraped_at": "2026-02-12T20:45:20.535076+00:00",
+  "errors": []
+}

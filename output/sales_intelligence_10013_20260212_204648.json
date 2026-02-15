@@ -1,0 +1,2536 @@
+{
+  "market": {
+    "region": "10013 — 25 mi radius",
+    "market_summary": "This market contains 71 GAF-certified contractors across NJ, NY. The average rating is 4.53 stars with 135 average reviews. Certification distribution: GAF Master Elite: 71, President's Club Award: 11.",
+    "certification_distribution": {
+      "GAF Master Elite": 71,
+      "President's Club Award": 11
+    },
+    "geographic_clusters": [
+      "Key clusters: Staten Island, NY, Bronx, NY, Wayne, NJ, Bergenfield, NJ, Edison, NJ",
+      "State split: NJ: 48, NY: 23"
+    ],
+    "avg_rating": 4.53,
+    "avg_review_count": 135.3,
+    "top_performers": [
+      "A1 Affordable Construction (489 reviews, 4.2 stars)",
+      "Matute Roofing (452 reviews, 5.0 stars)",
+      "Jersey Roofing LLC (434 reviews, 5.0 stars)",
+      "Grapevine Pro (433 reviews, 4.7 stars)",
+      "Complete Roof Systems (362 reviews, 5.0 stars)"
+    ],
+    "market_opportunities": [
+      "Review volume varies widely — lower-review contractors may need marketing support",
+      "Geographic coverage gaps may exist in underserved areas"
+    ],
+    "competitive_landscape": "Market of 71 contractors across NJ, NY. Average rating 4.53, indicating a high-quality, competitive landscape.",
+    "generated_at": "2026-02-12T20:46:48.884076+00:00"
+  },
+  "contractors": [
+    {
+      "contractor_id": "1113654",
+      "contractor_name": "Matute Roofing",
+      "summary": "Matute Roofing is a mid-size GAF contractor in Wayne, NJ with 5.0 stars across 452 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Mid-size",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 452 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Wayne, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 9,
+      "sales_readiness_rationale": "Score 9/10 based on 452 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Leader in Wayne by review volume.",
+      "opportunity_signals": [
+        "Located in Wayne, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 618-6489 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884100+00:00"
+    },
+    {
+      "contractor_id": "1004859",
+      "contractor_name": "Preferred Exterior Corp",
+      "summary": "Preferred Exterior Corp is a micro GAF contractor in New Hyde Park, NY with 5.0 stars across 50 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 50 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The New Hyde Park, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 50 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in New Hyde Park by review volume.",
+      "opportunity_signals": [
+        "Located in New Hyde Park, NY"
+      ],
+      "recommended_actions": [
+        "Call (516) 354-7252 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884111+00:00"
+    },
+    {
+      "contractor_id": "1116285",
+      "contractor_name": "Allied Brothers Home Corporation",
+      "summary": "Allied Brothers Home Corporation is a small GAF contractor in Wayne, NJ with 4.9 stars across 249 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 249 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Wayne, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 249 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Wayne by review volume.",
+      "opportunity_signals": [
+        "Located in Wayne, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 566-0060 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884120+00:00"
+    },
+    {
+      "contractor_id": "1141159",
+      "contractor_name": "Jersey Roofing LLC",
+      "summary": "Jersey Roofing LLC is a mid-size GAF contractor in Garfield, NJ with 5.0 stars across 434 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Mid-size",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 434 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Garfield, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 9,
+      "sales_readiness_rationale": "Score 9/10 based on 434 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Leader in Garfield by review volume.",
+      "opportunity_signals": [
+        "Located in Garfield, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 982-2718 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884127+00:00"
+    },
+    {
+      "contractor_id": "1139561",
+      "contractor_name": "Donny's Home Improvement",
+      "summary": "Donny's Home Improvement is a micro GAF contractor in Elmwood Park, NJ with 5.0 stars across 114 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 114 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Elmwood Park, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 8,
+      "sales_readiness_rationale": "Score 8/10 based on 114 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Elmwood Park by review volume.",
+      "opportunity_signals": [
+        "Located in Elmwood Park, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 333-6364 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884133+00:00"
+    },
+    {
+      "contractor_id": "1100696",
+      "contractor_name": "Brothers Aluminum Home Improvements Corp",
+      "summary": "Brothers Aluminum Home Improvements Corp is a small GAF contractor in Valley Stream, NY with 4.9 stars across 358 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 358 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Valley Stream, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 8,
+      "sales_readiness_rationale": "Score 8/10 based on 358 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Leader in Valley Stream by review volume.",
+      "opportunity_signals": [
+        "Located in Valley Stream, NY"
+      ],
+      "recommended_actions": [
+        "Call (516) 872-0947 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884140+00:00"
+    },
+    {
+      "contractor_id": "1113999",
+      "contractor_name": "Blue Nail Exteriors",
+      "summary": "Blue Nail Exteriors is a small GAF contractor in Montville, NJ with 4.9 stars across 325 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 325 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Montville, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 8,
+      "sales_readiness_rationale": "Score 8/10 based on 325 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Leader in Montville by review volume.",
+      "opportunity_signals": [
+        "Located in Montville, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 937-8876 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884146+00:00"
+    },
+    {
+      "contractor_id": "1001655",
+      "contractor_name": "The Great American Roofing Company",
+      "summary": "The Great American Roofing Company is a small GAF contractor in Ramsey, NJ with 4.9 stars across 150 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 150 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Ramsey, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 150 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Ramsey by review volume.",
+      "opportunity_signals": [
+        "Located in Ramsey, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 825-2955 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884152+00:00"
+    },
+    {
+      "contractor_id": "1005677",
+      "contractor_name": "American Roofing and Siding",
+      "summary": "American Roofing and Siding is a micro GAF contractor in Nutley, NJ with 4.9 stars across 128 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 128 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Nutley, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 128 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Nutley by review volume.",
+      "opportunity_signals": [
+        "Located in Nutley, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 542-0710 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884158+00:00"
+    },
+    {
+      "contractor_id": "1003844",
+      "contractor_name": "John Goess Roofing Inc",
+      "summary": "John Goess Roofing Inc is a micro GAF contractor in Westbury, NY with 4.9 stars across 59 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 59 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Westbury, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 59 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Westbury by review volume.",
+      "opportunity_signals": [
+        "Located in Westbury, NY"
+      ],
+      "recommended_actions": [
+        "Call (516) 541-4597 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884163+00:00"
+    },
+    {
+      "contractor_id": "1130919",
+      "contractor_name": "Grapevine Pro",
+      "summary": "Grapevine Pro is a mid-size GAF contractor in Iselin, NJ with 4.7 stars across 433 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Mid-size",
+      "talking_points": [
+        {
+          "hook": "Your 4.7-star rating across 433 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Iselin, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 8,
+      "sales_readiness_rationale": "Score 8/10 based on 433 reviews, 4.7 rating, certification tier.",
+      "competitive_position": "Leader in Iselin by review volume.",
+      "opportunity_signals": [
+        "Located in Iselin, NJ"
+      ],
+      "recommended_actions": [
+        "Call (732) 335-7770 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884169+00:00"
+    },
+    {
+      "contractor_id": "1002688",
+      "contractor_name": "Complete Roof Systems",
+      "summary": "Complete Roof Systems is a small GAF contractor in Dumont, NJ with 5.0 stars across 362 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 362 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Dumont, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 8,
+      "sales_readiness_rationale": "Score 8/10 based on 362 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Leader in Dumont by review volume.",
+      "opportunity_signals": [
+        "Located in Dumont, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 387-1846 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884175+00:00"
+    },
+    {
+      "contractor_id": "1101267",
+      "contractor_name": "AK Gatsios Inc",
+      "summary": "AK Gatsios Inc is a small GAF contractor in Bronx, NY with 5.0 stars across 316 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 316 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Bronx, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 8,
+      "sales_readiness_rationale": "Score 8/10 based on 316 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Leader in Bronx by review volume.",
+      "opportunity_signals": [
+        "Located in Bronx, NY"
+      ],
+      "recommended_actions": [
+        "Call (646) 302-5175 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884180+00:00"
+    },
+    {
+      "contractor_id": "1143942",
+      "contractor_name": "RH Renovation LLC",
+      "summary": "RH Renovation LLC is a small GAF contractor in Bronx, NY with 5.0 stars across 305 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 305 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Bronx, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 8,
+      "sales_readiness_rationale": "Score 8/10 based on 305 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Leader in Bronx by review volume.",
+      "opportunity_signals": [
+        "Located in Bronx, NY"
+      ],
+      "recommended_actions": [
+        "Call (646) 818-4305 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884185+00:00"
+    },
+    {
+      "contractor_id": "1146349",
+      "contractor_name": "DeFalco Roofing",
+      "summary": "DeFalco Roofing is a small GAF contractor in Fairfield, NJ with 5.0 stars across 303 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 303 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Fairfield, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 8,
+      "sales_readiness_rationale": "Score 8/10 based on 303 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Leader in Fairfield by review volume.",
+      "opportunity_signals": [
+        "Located in Fairfield, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 255-0374 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884190+00:00"
+    },
+    {
+      "contractor_id": "1107024",
+      "contractor_name": "MNT Roofing & Siding",
+      "summary": "MNT Roofing & Siding is a micro GAF contractor in Totowa, NJ with 5.0 stars across 134 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 134 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Totowa, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 134 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Totowa by review volume.",
+      "opportunity_signals": [
+        "Located in Totowa, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 758-7077 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884196+00:00"
+    },
+    {
+      "contractor_id": "1148691",
+      "contractor_name": "Future Remodeling",
+      "summary": "Future Remodeling is a micro GAF contractor in Bergenfield, NJ with 5.0 stars across 119 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 119 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Bergenfield, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 119 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Bergenfield by review volume.",
+      "opportunity_signals": [
+        "Located in Bergenfield, NJ"
+      ],
+      "recommended_actions": [
+        "Call (866) 221-1433 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884201+00:00"
+    },
+    {
+      "contractor_id": "1143894",
+      "contractor_name": "Golden Key Construction Group Inc",
+      "summary": "Golden Key Construction Group Inc is a micro GAF contractor in Staten Island, NY with 5.0 stars across 113 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 113 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Staten Island, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 113 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Staten Island by review volume.",
+      "opportunity_signals": [
+        "Located in Staten Island, NY"
+      ],
+      "recommended_actions": [
+        "Call (929) 353-9227 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884206+00:00"
+    },
+    {
+      "contractor_id": "1112309",
+      "contractor_name": "One Call Construction",
+      "summary": "One Call Construction is a micro GAF contractor in Hawthorne, NJ with 5.0 stars across 108 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 108 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Hawthorne, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 108 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Hawthorne by review volume.",
+      "opportunity_signals": [
+        "Located in Hawthorne, NJ"
+      ],
+      "recommended_actions": [
+        "Call (800) 747-0283 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884211+00:00"
+    },
+    {
+      "contractor_id": "1139367",
+      "contractor_name": "Aura Home Exteriors",
+      "summary": "Aura Home Exteriors is a micro GAF contractor in Edison, NJ with 5.0 stars across 104 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 104 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Edison, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 104 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Edison by review volume.",
+      "opportunity_signals": [
+        "Located in Edison, NJ"
+      ],
+      "recommended_actions": [
+        "Call (732) 851-8028 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884216+00:00"
+    },
+    {
+      "contractor_id": "1150334",
+      "contractor_name": "Apex Roofing Solutions",
+      "summary": "Apex Roofing Solutions is a micro GAF contractor in Woodland Park, NJ with 5.0 stars across 89 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 89 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Woodland Park, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 89 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Woodland Park by review volume.",
+      "opportunity_signals": [
+        "Located in Woodland Park, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 558-3045 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884221+00:00"
+    },
+    {
+      "contractor_id": "1118403",
+      "contractor_name": "Reisch Roofing and Construction LLC",
+      "summary": "Reisch Roofing and Construction LLC is a micro GAF contractor in Pompton Plains, NJ with 5.0 stars across 70 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 70 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Pompton Plains, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 70 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Pompton Plains by review volume.",
+      "opportunity_signals": [
+        "Located in Pompton Plains, NJ"
+      ],
+      "recommended_actions": [
+        "Call (855) 734-7241 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884227+00:00"
+    },
+    {
+      "contractor_id": "1149465",
+      "contractor_name": "Revive Home Remodeling Group LLC",
+      "summary": "Revive Home Remodeling Group LLC is a micro GAF contractor in Woodbridge, NJ with 5.0 stars across 64 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 64 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Woodbridge, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 64 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Woodbridge by review volume.",
+      "opportunity_signals": [
+        "Located in Woodbridge, NJ"
+      ],
+      "recommended_actions": [
+        "Call (908) 420-5098 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884232+00:00"
+    },
+    {
+      "contractor_id": "1104793",
+      "contractor_name": "Kelly Exteriors",
+      "summary": "Kelly Exteriors is a micro GAF contractor in Emerson, NJ with 5.0 stars across 59 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 59 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Emerson, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 59 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Emerson by review volume.",
+      "opportunity_signals": [
+        "Located in Emerson, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 977-1076 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884237+00:00"
+    },
+    {
+      "contractor_id": "1131213",
+      "contractor_name": "High Caliber Renovations LLC",
+      "summary": "High Caliber Renovations LLC is a micro GAF contractor in Rahway, NJ with 5.0 stars across 58 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 58 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Rahway, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 58 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Rahway by review volume.",
+      "opportunity_signals": [
+        "Located in Rahway, NJ"
+      ],
+      "recommended_actions": [
+        "Call (908) 472-5096 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884242+00:00"
+    },
+    {
+      "contractor_id": "1000079",
+      "contractor_name": "ARM Roofing",
+      "summary": "ARM Roofing is a micro GAF contractor in Elmsford, NY with 5.0 stars across 10 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 10 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Elmsford, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 10 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Elmsford by review volume.",
+      "opportunity_signals": [
+        "Located in Elmsford, NY"
+      ],
+      "recommended_actions": [
+        "Call (914) 347-2763 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884247+00:00"
+    },
+    {
+      "contractor_id": "1135593",
+      "contractor_name": "All Seasons Roofing LLC",
+      "summary": "All Seasons Roofing LLC is a micro GAF contractor in Staten Island, NY with 5.0 stars across 6 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 6 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Staten Island, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 6 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Staten Island by review volume.",
+      "opportunity_signals": [
+        "Located in Staten Island, NY"
+      ],
+      "recommended_actions": [
+        "Call (718) 200-1802 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884252+00:00"
+    },
+    {
+      "contractor_id": "1004925",
+      "contractor_name": "Patwood Roofing Co Inc",
+      "summary": "Patwood Roofing Co Inc is a micro GAF contractor in Little Falls, NJ with 5.0 stars across 5 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 5 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Little Falls, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 5 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Little Falls by review volume.",
+      "opportunity_signals": [
+        "Located in Little Falls, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 256-0400 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884257+00:00"
+    },
+    {
+      "contractor_id": "1120367",
+      "contractor_name": "A&S Construction & Son Inc",
+      "summary": "A&S Construction & Son Inc is a micro GAF contractor in Brooklyn, NY with 5.0 stars across 1 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 5.0-star rating across 1 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Brooklyn, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 1 reviews, 5.0 rating, certification tier.",
+      "competitive_position": "Contender in Brooklyn by review volume.",
+      "opportunity_signals": [
+        "Located in Brooklyn, NY"
+      ],
+      "recommended_actions": [
+        "Call (347) 326-4098 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884262+00:00"
+    },
+    {
+      "contractor_id": "1005906",
+      "contractor_name": "Long Island Roofing and Repairs Service",
+      "summary": "Long Island Roofing and Repairs Service is a small GAF contractor in North Bellmore, NY with 4.9 stars across 360 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 360 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The North Bellmore, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 360 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Leader in North Bellmore by review volume.",
+      "opportunity_signals": [
+        "Located in North Bellmore, NY"
+      ],
+      "recommended_actions": [
+        "Call (516) 221-9100 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884267+00:00"
+    },
+    {
+      "contractor_id": "1004426",
+      "contractor_name": "R&G Services Corp",
+      "summary": "R&G Services Corp is a small GAF contractor in Orange, NJ with 4.9 stars across 293 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 293 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Orange, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 293 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Orange by review volume.",
+      "opportunity_signals": [
+        "Located in Orange, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 324-9461 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884273+00:00"
+    },
+    {
+      "contractor_id": "1005149",
+      "contractor_name": "American Home Contractors Inc",
+      "summary": "American Home Contractors Inc is a small GAF contractor in Florham Park, NJ with 4.9 stars across 258 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 258 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Florham Park, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 258 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Florham Park by review volume.",
+      "opportunity_signals": [
+        "Located in Florham Park, NJ"
+      ],
+      "recommended_actions": [
+        "Call (908) 771-0123 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884278+00:00"
+    },
+    {
+      "contractor_id": "1100484",
+      "contractor_name": "The Carpenter's Touch LLC",
+      "summary": "The Carpenter's Touch LLC is a small GAF contractor in Livingston, NJ with 4.9 stars across 160 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 160 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Livingston, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 160 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Livingston by review volume.",
+      "opportunity_signals": [
+        "Located in Livingston, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 994-1085 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884283+00:00"
+    },
+    {
+      "contractor_id": "1100365",
+      "contractor_name": "Above & Beyond Exterior Remodelers",
+      "summary": "Above & Beyond Exterior Remodelers is a micro GAF contractor in Westfield, NJ with 4.9 stars across 146 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 146 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Westfield, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 146 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Westfield by review volume.",
+      "opportunity_signals": [
+        "Located in Westfield, NJ"
+      ],
+      "recommended_actions": [
+        "Call (732) 322-8482 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884289+00:00"
+    },
+    {
+      "contractor_id": "1111706",
+      "contractor_name": "A L Best Construction Corp",
+      "summary": "A L Best Construction Corp is a micro GAF contractor in Queens Village, NY with 4.9 stars across 117 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 117 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Queens Village, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 117 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Queens Village by review volume.",
+      "opportunity_signals": [
+        "Located in Queens Village, NY"
+      ],
+      "recommended_actions": [
+        "Call (800) 516-1424 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884294+00:00"
+    },
+    {
+      "contractor_id": "1112549",
+      "contractor_name": "LGM Roofing Contractors",
+      "summary": "LGM Roofing Contractors is a micro GAF contractor in Bloomfield, NJ with 4.9 stars across 108 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 108 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Bloomfield, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 108 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Bloomfield by review volume.",
+      "opportunity_signals": [
+        "Located in Bloomfield, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 707-2154 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884299+00:00"
+    },
+    {
+      "contractor_id": "1119370",
+      "contractor_name": "Lojas Home Improvement Plus LLC",
+      "summary": "Lojas Home Improvement Plus LLC is a micro GAF contractor in Union, NJ with 4.9 stars across 108 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 108 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Union, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 108 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Union by review volume.",
+      "opportunity_signals": [
+        "Located in Union, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 757-3958 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884305+00:00"
+    },
+    {
+      "contractor_id": "1121148",
+      "contractor_name": "American Star Contractor Corp",
+      "summary": "American Star Contractor Corp is a micro GAF contractor in Bronx, NY with 4.9 stars across 87 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 87 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Bronx, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 87 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Bronx by review volume.",
+      "opportunity_signals": [
+        "Located in Bronx, NY"
+      ],
+      "recommended_actions": [
+        "Call (862) 294-9990 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884310+00:00"
+    },
+    {
+      "contractor_id": "1108705",
+      "contractor_name": "American Quality Home Improvements LLC",
+      "summary": "American Quality Home Improvements LLC is a micro GAF contractor in Belleville, NJ with 4.9 stars across 84 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 84 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Belleville, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 84 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Belleville by review volume.",
+      "opportunity_signals": [
+        "Located in Belleville, NJ"
+      ],
+      "recommended_actions": [
+        "Call (888) 205-1925 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884315+00:00"
+    },
+    {
+      "contractor_id": "1142742",
+      "contractor_name": "KNA Roofing",
+      "summary": "KNA Roofing is a micro GAF contractor in New York, NY with 4.9 stars across 74 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 74 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The New York, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 74 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in New York by review volume.",
+      "opportunity_signals": [
+        "Located in New York, NY"
+      ],
+      "recommended_actions": [
+        "Call (718) 288-6808 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884343+00:00"
+    },
+    {
+      "contractor_id": "1139996",
+      "contractor_name": "MK Best Roofing",
+      "summary": "MK Best Roofing is a micro GAF contractor in Roosevelt, NY with 4.9 stars across 54 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 54 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Roosevelt, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 54 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Roosevelt by review volume.",
+      "opportunity_signals": [
+        "Located in Roosevelt, NY"
+      ],
+      "recommended_actions": [
+        "Call (631) 645-2710 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884349+00:00"
+    },
+    {
+      "contractor_id": "1002346",
+      "contractor_name": "RK Roofing Inc",
+      "summary": "RK Roofing Inc is a micro GAF contractor in Caldwell, NJ with 4.9 stars across 47 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 47 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Caldwell, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 47 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Caldwell by review volume.",
+      "opportunity_signals": [
+        "Located in Caldwell, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 226-2605 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884354+00:00"
+    },
+    {
+      "contractor_id": "1002371",
+      "contractor_name": "Rebuild America Inc",
+      "summary": "Rebuild America Inc is a micro GAF contractor in Mineola, NY with 4.9 stars across 34 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.9-star rating across 34 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Mineola, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 34 reviews, 4.9 rating, certification tier.",
+      "competitive_position": "Contender in Mineola by review volume.",
+      "opportunity_signals": [
+        "Located in Mineola, NY"
+      ],
+      "recommended_actions": [
+        "Call (516) 535-9293 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884360+00:00"
+    },
+    {
+      "contractor_id": "1109076",
+      "contractor_name": "Royal Renovators Inc",
+      "summary": "Royal Renovators Inc is a small GAF contractor in Forest Hills, NY with 4.8 stars across 240 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.8-star rating across 240 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Forest Hills, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 240 reviews, 4.8 rating, certification tier.",
+      "competitive_position": "Contender in Forest Hills by review volume.",
+      "opportunity_signals": [
+        "Located in Forest Hills, NY"
+      ],
+      "recommended_actions": [
+        "Call (718) 414-6067 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884365+00:00"
+    },
+    {
+      "contractor_id": "1118752",
+      "contractor_name": "A&J Professional Services Inc",
+      "summary": "A&J Professional Services Inc is a small GAF contractor in South Plainfield, NJ with 4.8 stars across 220 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.8-star rating across 220 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The South Plainfield, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 220 reviews, 4.8 rating, certification tier.",
+      "competitive_position": "Contender in South Plainfield by review volume.",
+      "opportunity_signals": [
+        "Located in South Plainfield, NJ"
+      ],
+      "recommended_actions": [
+        "Call (908) 432-7081 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884370+00:00"
+    },
+    {
+      "contractor_id": "1103353",
+      "contractor_name": "B&B Siding and Roofing",
+      "summary": "B&B Siding and Roofing is a small GAF contractor in Staten Island, NY with 4.8 stars across 174 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.8-star rating across 174 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Staten Island, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 174 reviews, 4.8 rating, certification tier.",
+      "competitive_position": "Contender in Staten Island by review volume.",
+      "opportunity_signals": [
+        "Located in Staten Island, NY"
+      ],
+      "recommended_actions": [
+        "Call (718) 757-2904 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884376+00:00"
+    },
+    {
+      "contractor_id": "1003499",
+      "contractor_name": "CKG Contractors Inc",
+      "summary": "CKG Contractors Inc is a small GAF contractor in Parsippany, NJ with 4.8 stars across 150 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.8-star rating across 150 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Parsippany, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 150 reviews, 4.8 rating, certification tier.",
+      "competitive_position": "Contender in Parsippany by review volume.",
+      "opportunity_signals": [
+        "Located in Parsippany, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 599-0811 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884381+00:00"
+    },
+    {
+      "contractor_id": "1112005",
+      "contractor_name": "Kamtech Restoration Corp",
+      "summary": "Kamtech Restoration Corp is a micro GAF contractor in Brooklyn, NY with 4.8 stars across 146 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.8-star rating across 146 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Brooklyn, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 146 reviews, 4.8 rating, certification tier.",
+      "competitive_position": "Contender in Brooklyn by review volume.",
+      "opportunity_signals": [
+        "Located in Brooklyn, NY"
+      ],
+      "recommended_actions": [
+        "Call (347) 860-1109 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884386+00:00"
+    },
+    {
+      "contractor_id": "1136200",
+      "contractor_name": "Seci Construction Inc",
+      "summary": "Seci Construction Inc is a micro GAF contractor in Clifton, NJ with 4.8 stars across 122 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.8-star rating across 122 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Clifton, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 122 reviews, 4.8 rating, certification tier.",
+      "competitive_position": "Contender in Clifton by review volume.",
+      "opportunity_signals": [
+        "Located in Clifton, NJ"
+      ],
+      "recommended_actions": [
+        "Call (866) 572-7324 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884391+00:00"
+    },
+    {
+      "contractor_id": "1100517",
+      "contractor_name": "R Jenny Construction",
+      "summary": "R Jenny Construction is a micro GAF contractor in Orange, NJ with 4.8 stars across 24 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.8-star rating across 24 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Orange, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 24 reviews, 4.8 rating, certification tier.",
+      "competitive_position": "Contender in Orange by review volume.",
+      "opportunity_signals": [
+        "Located in Orange, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 673-7663 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884396+00:00"
+    },
+    {
+      "contractor_id": "1104750",
+      "contractor_name": "Dior Construction",
+      "summary": "Dior Construction is a small GAF contractor in Bergenfield, NJ with 4.7 stars across 274 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.7-star rating across 274 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Bergenfield, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 274 reviews, 4.7 rating, certification tier.",
+      "competitive_position": "Contender in Bergenfield by review volume.",
+      "opportunity_signals": [
+        "Located in Bergenfield, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 472-5462 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884401+00:00"
+    },
+    {
+      "contractor_id": "1002062",
+      "contractor_name": "Abraham Roofing",
+      "summary": "Abraham Roofing is a micro GAF contractor in Lynbrook, NY with 4.7 stars across 112 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.7-star rating across 112 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Lynbrook, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 112 reviews, 4.7 rating, certification tier.",
+      "competitive_position": "Contender in Lynbrook by review volume.",
+      "opportunity_signals": [
+        "Located in Lynbrook, NY"
+      ],
+      "recommended_actions": [
+        "Call (800) 347-0913 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884406+00:00"
+    },
+    {
+      "contractor_id": "1141740",
+      "contractor_name": "SmartRoof LLC",
+      "summary": "SmartRoof LLC is a micro GAF contractor in Parsippany, NJ with 4.7 stars across 89 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.7-star rating across 89 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Parsippany, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 89 reviews, 4.7 rating, certification tier.",
+      "competitive_position": "Contender in Parsippany by review volume.",
+      "opportunity_signals": [
+        "Located in Parsippany, NJ"
+      ],
+      "recommended_actions": [
+        "Call (844) 334-1864 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884412+00:00"
+    },
+    {
+      "contractor_id": "1103443",
+      "contractor_name": "Gorman & Carbone Roofing Contractors",
+      "summary": "Gorman & Carbone Roofing Contractors is a micro GAF contractor in Staten Island, NY with 4.7 stars across 27 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.7-star rating across 27 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Staten Island, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 27 reviews, 4.7 rating, certification tier.",
+      "competitive_position": "Contender in Staten Island by review volume.",
+      "opportunity_signals": [
+        "Located in Staten Island, NY"
+      ],
+      "recommended_actions": [
+        "Call (718) 317-4023 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884417+00:00"
+    },
+    {
+      "contractor_id": "1100174",
+      "contractor_name": "Homestead Roofing Company",
+      "summary": "Homestead Roofing Company is a small GAF contractor in Ridgewood, NJ with 4.6 stars across 171 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Small",
+      "talking_points": [
+        {
+          "hook": "Your 4.6-star rating across 171 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Ridgewood, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 6,
+      "sales_readiness_rationale": "Score 6/10 based on 171 reviews, 4.6 rating, certification tier.",
+      "competitive_position": "Contender in Ridgewood by review volume.",
+      "opportunity_signals": [
+        "Located in Ridgewood, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 444-2233 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884422+00:00"
+    },
+    {
+      "contractor_id": "1006133",
+      "contractor_name": "Acorn Home Improvements Inc",
+      "summary": "Acorn Home Improvements Inc is a micro GAF contractor in Whippany, NJ with 4.6 stars across 73 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.6-star rating across 73 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Whippany, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 73 reviews, 4.6 rating, certification tier.",
+      "competitive_position": "Contender in Whippany by review volume.",
+      "opportunity_signals": [
+        "Located in Whippany, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 386-9604 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884427+00:00"
+    },
+    {
+      "contractor_id": "1101248",
+      "contractor_name": "Garden State Roofing & Siding",
+      "summary": "Garden State Roofing & Siding is a micro GAF contractor in North Middletown, NJ with 4.6 stars across 64 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.6-star rating across 64 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The North Middletown, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 64 reviews, 4.6 rating, certification tier.",
+      "competitive_position": "Contender in North Middletown by review volume.",
+      "opportunity_signals": [
+        "Located in North Middletown, NJ"
+      ],
+      "recommended_actions": [
+        "Call (732) 787-5545 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884433+00:00"
+    },
+    {
+      "contractor_id": "1003072",
+      "contractor_name": "Premium Home Improvements",
+      "summary": "Premium Home Improvements is a micro GAF contractor in Berkeley Heights, NJ with 4.6 stars across 55 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.6-star rating across 55 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Berkeley Heights, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 55 reviews, 4.6 rating, certification tier.",
+      "competitive_position": "Contender in Berkeley Heights by review volume.",
+      "opportunity_signals": [
+        "Located in Berkeley Heights, NJ"
+      ],
+      "recommended_actions": [
+        "Call (908) 898-1420 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884438+00:00"
+    },
+    {
+      "contractor_id": "1144121",
+      "contractor_name": "Green Star Exteriors",
+      "summary": "Green Star Exteriors is a micro GAF contractor in South Plainfield, NJ with 4.6 stars across 33 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.6-star rating across 33 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The South Plainfield, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 33 reviews, 4.6 rating, certification tier.",
+      "competitive_position": "Contender in South Plainfield by review volume.",
+      "opportunity_signals": [
+        "Located in South Plainfield, NJ"
+      ],
+      "recommended_actions": [
+        "Call (800) 625-0021 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884443+00:00"
+    },
+    {
+      "contractor_id": "1123198",
+      "contractor_name": "Abraham Roofing & Siding",
+      "summary": "Abraham Roofing & Siding is a micro GAF contractor in Union, NJ with 4.6 stars across 10 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.6-star rating across 10 reviews stands out",
+          "detail": "That's above the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Union, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 10 reviews, 4.6 rating, certification tier.",
+      "competitive_position": "Contender in Union by review volume.",
+      "opportunity_signals": [
+        "Located in Union, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 379-1300 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884448+00:00"
+    },
+    {
+      "contractor_id": "1005319",
+      "contractor_name": "Classic Remodeling Corp",
+      "summary": "Classic Remodeling Corp is a micro GAF contractor in Paramus, NJ with 4.5 stars across 56 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.5-star rating across 56 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Paramus, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 56 reviews, 4.5 rating, certification tier.",
+      "competitive_position": "Contender in Paramus by review volume.",
+      "opportunity_signals": [
+        "Located in Paramus, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 745-8065 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884453+00:00"
+    },
+    {
+      "contractor_id": "1006185",
+      "contractor_name": "FM Construction Group LLC",
+      "summary": "FM Construction Group LLC is a micro GAF contractor in East Orange, NJ with 4.3 stars across 36 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.3-star rating across 36 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The East Orange, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 36 reviews, 4.3 rating, certification tier.",
+      "competitive_position": "Contender in East Orange by review volume.",
+      "opportunity_signals": [
+        "Located in East Orange, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 989-1616 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884459+00:00"
+    },
+    {
+      "contractor_id": "1106994",
+      "contractor_name": "A1 Affordable Construction",
+      "summary": "A1 Affordable Construction is a mid-size GAF contractor in Clifton, NJ with 4.2 stars across 489 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Mid-size",
+      "talking_points": [
+        {
+          "hook": "Your 4.2-star rating across 489 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Clifton, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 7,
+      "sales_readiness_rationale": "Score 7/10 based on 489 reviews, 4.2 rating, certification tier.",
+      "competitive_position": "Leader in Clifton by review volume.",
+      "opportunity_signals": [
+        "Located in Clifton, NJ"
+      ],
+      "recommended_actions": [
+        "Call (800) 865-0053 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884464+00:00"
+    },
+    {
+      "contractor_id": "1109046",
+      "contractor_name": "American Siding Construction Corp",
+      "summary": "American Siding Construction Corp is a micro GAF contractor in Newark, NJ with 4.1 stars across 27 reviews.",
+      "industry_tags": [
+        "Residential Roofing",
+        "Multi-Service Exterior"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.1-star rating across 27 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Newark, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 27 reviews, 4.1 rating, certification tier.",
+      "competitive_position": "Contender in Newark by review volume.",
+      "opportunity_signals": [
+        "Located in Newark, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 772-7713 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884469+00:00"
+    },
+    {
+      "contractor_id": "1136966",
+      "contractor_name": "JC Master Inc",
+      "summary": "JC Master Inc is a micro GAF contractor in Richmond Hill, NY with 4.0 stars across 92 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.0-star rating across 92 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Richmond Hill, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 92 reviews, 4.0 rating, certification tier.",
+      "competitive_position": "Contender in Richmond Hill by review volume.",
+      "opportunity_signals": [
+        "Located in Richmond Hill, NY"
+      ],
+      "recommended_actions": [
+        "Call (347) 400-2611 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884474+00:00"
+    },
+    {
+      "contractor_id": "1004877",
+      "contractor_name": "Nations Roof LLC",
+      "summary": "Nations Roof LLC is a micro GAF contractor in Yonkers, NY with 4.0 stars across 4 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 4.0-star rating across 4 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Yonkers, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 4 reviews, 4.0 rating, certification tier.",
+      "competitive_position": "Contender in Yonkers by review volume.",
+      "opportunity_signals": [
+        "Located in Yonkers, NY"
+      ],
+      "recommended_actions": [
+        "Call (732) 406-4471 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884479+00:00"
+    },
+    {
+      "contractor_id": "1101120",
+      "contractor_name": "Pravco Inc",
+      "summary": "Pravco Inc is a micro GAF contractor in Rahway, NJ with 3.7 stars across 10 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 3.7-star rating across 10 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Rahway, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 10 reviews, 3.7 rating, certification tier.",
+      "competitive_position": "Contender in Rahway by review volume.",
+      "opportunity_signals": [
+        "Located in Rahway, NJ"
+      ],
+      "recommended_actions": [
+        "Call (732) 388-0800 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884484+00:00"
+    },
+    {
+      "contractor_id": "1116337",
+      "contractor_name": "Carework Construction LLC",
+      "summary": "Carework Construction LLC is a micro GAF contractor in Lyndhurst, NJ with 0 stars across 0 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 0-star rating across 0 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Lyndhurst, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 0 reviews, 0 rating, certification tier.",
+      "competitive_position": "Contender in Lyndhurst by review volume.",
+      "opportunity_signals": [
+        "Located in Lyndhurst, NJ"
+      ],
+      "recommended_actions": [
+        "Call (201) 998-8960 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884490+00:00"
+    },
+    {
+      "contractor_id": "1106495",
+      "contractor_name": "DC Services",
+      "summary": "DC Services is a micro GAF contractor in Edison, NJ with 0 stars across 0 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 0-star rating across 0 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Edison, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 0 reviews, 0 rating, certification tier.",
+      "competitive_position": "Contender in Edison by review volume.",
+      "opportunity_signals": [
+        "Located in Edison, NJ"
+      ],
+      "recommended_actions": [
+        "Call (973) 991-1888 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884495+00:00"
+    },
+    {
+      "contractor_id": "1144075",
+      "contractor_name": "Happy Remodeling",
+      "summary": "Happy Remodeling is a micro GAF contractor in Long Beach, NY with 0 stars across 0 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 0-star rating across 0 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Long Beach, NY market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 0 reviews, 0 rating, certification tier.",
+      "competitive_position": "Contender in Long Beach by review volume.",
+      "opportunity_signals": [
+        "Located in Long Beach, NY"
+      ],
+      "recommended_actions": [
+        "Call (516) 993-8556 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884500+00:00"
+    },
+    {
+      "contractor_id": "1111401",
+      "contractor_name": "REK Roofing Services",
+      "summary": "REK Roofing Services is a micro GAF contractor in Tenafly, NJ with 0 stars across 0 reviews.",
+      "industry_tags": [
+        "Residential Roofing"
+      ],
+      "business_size_estimate": "Micro",
+      "talking_points": [
+        {
+          "hook": "Your 0-star rating across 0 reviews stands out",
+          "detail": "That's in line with the market average of 4.53.",
+          "source": "GAF profile data"
+        },
+        {
+          "hook": "The Tenafly, NJ market has 71 GAF contractors",
+          "detail": "Differentiation requires more than certification — we can help with visibility.",
+          "source": "Market analysis"
+        }
+      ],
+      "pain_points": [
+        "Standing out in a competitive, high-quality market"
+      ],
+      "sales_readiness_score": 5,
+      "sales_readiness_rationale": "Score 5/10 based on 0 reviews, 0 rating, certification tier.",
+      "competitive_position": "Contender in Tenafly by review volume.",
+      "opportunity_signals": [
+        "Located in Tenafly, NJ"
+      ],
+      "recommended_actions": [
+        "Call (646) 721-4431 with local market data",
+        "Offer visibility / lead-gen solutions"
+      ],
+      "generated_at": "2026-02-12T20:46:48.884505+00:00"
+    }
+  ],
+  "source_file": "pipeline_run",
+  "generated_at": "2026-02-12T20:46:48.884509+00:00"
+}
