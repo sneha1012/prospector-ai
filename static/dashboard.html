@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAF Contractor Intelligence Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #232633;
+    --border: #2d3044;
+    --text: #e4e4e7;
+    --text-muted: #9298a8;
+    --accent: #6366f1;
+    --accent-light: #818cf8;
+    --hot: #22c55e;
+    --warm: #eab308;
+    --cold: #ef4444;
+    --blue: #3b82f6;
+    --cyan: #06b6d4;
+    --orange: #f97316;
+    --pink: #ec4899;
+    --radius: 12px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  .header {
+    background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+  .header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent-light), var(--cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .header .subtitle { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+  /* ── Stats Bar ── */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    padding: 24px 32px;
+  }
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    text-align: center;
+  }
+  .stat-card .value {
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent-light), var(--cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .stat-card .label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+  /* ── Main Layout ── */
+  .main { padding: 0 32px 32px; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  @media (max-width: 1200px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+  }
+  .card h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card h2 .icon { font-size: 18px; }
+
+  /* ── Filters ── */
+  .filters {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+  .filters label { font-size: 13px; color: var(--text-muted); }
+  .filters select, .filters input {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+  }
+  .filters select:focus, .filters input:focus { border-color: var(--accent); }
+  .btn {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+  .btn:hover { background: var(--accent-light); transform: translateY(-1px); }
+  .btn-sm { padding: 5px 12px; font-size: 12px; }
+
+  /* ── Ranking Table ── */
+  .ranking-table { width: 100%; border-collapse: collapse; }
+  .ranking-table th {
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+  }
+  .ranking-table th:hover { color: var(--accent-light); }
+  .ranking-table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+    vertical-align: middle;
+  }
+  .ranking-table tr { cursor: pointer; transition: background 0.15s; }
+  .ranking-table tr:hover { background: var(--surface2); }
+  .ranking-table tr.selected { background: rgba(99, 102, 241, 0.15); border-left: 3px solid var(--accent); }
+
+  .score-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .score-hot { background: rgba(34, 197, 94, 0.15); color: var(--hot); }
+  .score-warm { background: rgba(234, 179, 8, 0.15); color: var(--warm); }
+  .score-cold { background: rgba(239, 68, 68, 0.15); color: var(--cold); }
+
+  .bar-cell { display: flex; align-items: center; gap: 8px; }
+  .bar-fill { height: 6px; border-radius: 3px; transition: width 0.5s ease; }
+
+  /* ── Detail Panel ── */
+  .detail-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 24px;
+    display: none;
+  }
+  .detail-panel.visible { display: block; animation: fadeIn 0.3s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+
+  .detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .detail-header h2 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+  .detail-header .meta { font-size: 13px; color: var(--text-muted); }
+  .detail-close { background: none; border: 1px solid var(--border); color: var(--text-muted); border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; }
+  .detail-close:hover { background: var(--surface2); color: var(--text); }
+
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 900px) { .detail-grid { grid-template-columns: 1fr; } }
+
+  .detail-section h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-light);
+    margin-bottom: 10px;
+  }
+  .detail-section ul { list-style: none; padding: 0; }
+  .detail-section li { padding: 6px 0; font-size: 14px; border-bottom: 1px solid var(--border); }
+  .detail-section li:last-child { border: none; }
+  .detail-section .tp-hook { font-weight: 600; color: var(--cyan); }
+  .detail-section .tp-detail { color: var(--text-muted); font-size: 13px; margin-top: 2px; }
+
+  .summary-text { font-size: 15px; line-height: 1.7; color: var(--text); margin-bottom: 16px; font-style: italic; }
+
+  /* ── Compare ── */
+  .compare-section { margin-bottom: 24px; }
+  .compare-section .compare-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+  .compare-section select { min-width: 220px; }
+  .compare-vs { font-weight: 700; color: var(--accent-light); font-size: 16px; }
+
+  /* ── Charts ── */
+  .chart-container { position: relative; width: 100%; }
+  .chart-container canvas { width: 100% !important; }
+
+  /* ── Market Panel ── */
+  .market-card { margin-bottom: 24px; }
+  .market-card p { font-size: 14px; line-height: 1.8; color: var(--text-muted); }
+  .market-card strong { color: var(--text); }
+
+  /* ── Tags ── */
+  .tag {
+    display: inline-block;
+    padding: 3px 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin: 2px 4px 2px 0;
+  }
+
+  /* ── Loading ── */
+  .loading { text-align: center; padding: 60px; color: var(--text-muted); }
+  .loading .spinner { display: inline-block; width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 12px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<!-- ── Header ── -->
+<div class="header">
+  <div>
+    <h1>GAF Contractor Intelligence</h1>
+    <div class="subtitle">AI-Powered Sales Intelligence Platform — ZIP 10013, 25mi radius</div>
+  </div>
+  <div style="display:flex;gap:10px;align-items:center">
+    <span id="dbStatus" style="font-size:12px;color:var(--hot)">● Connected</span>
+  </div>
+</div>
+
+<!-- ── Stats ── -->
+<div class="stats-bar" id="statsBar">
+  <div class="stat-card"><div class="value" id="statTotal">—</div><div class="label">Contractors</div></div>
+  <div class="stat-card"><div class="value" id="statInsights">—</div><div class="label">With Insights</div></div>
+  <div class="stat-card"><div class="value" id="statAvgScore">—</div><div class="label">Avg Score</div></div>
+  <div class="stat-card"><div class="value" id="statHot">—</div><div class="label">HOT Leads</div></div>
+  <div class="stat-card"><div class="value" id="statAvgRating">—</div><div class="label">Avg Rating</div></div>
+  <div class="stat-card"><div class="value" id="statRuns">—</div><div class="label">Pipeline Runs</div></div>
+</div>
+
+<div class="main">
+
+<!-- ── Detail Panel (hidden by default) ── -->
+<div class="detail-panel" id="detailPanel">
+  <div class="detail-header">
+    <div>
+      <h2 id="detailName">—</h2>
+      <div class="meta" id="detailMeta">—</div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:center">
+      <span id="detailScoreBadge" class="score-badge score-hot">—</span>
+      <button class="detail-close" onclick="closeDetail()">Close</button>
+    </div>
+  </div>
+  <div class="summary-text" id="detailSummary"></div>
+  <div class="detail-grid">
+    <div class="detail-section">
+      <h3>Talking Points</h3>
+      <ul id="detailTalkingPoints"></ul>
+    </div>
+    <div class="detail-section">
+      <h3>Pain Points</h3>
+      <ul id="detailPainPoints"></ul>
+    </div>
+    <div class="detail-section">
+      <h3>Opportunity Signals</h3>
+      <ul id="detailSignals"></ul>
+    </div>
+    <div class="detail-section">
+      <h3>Recommended Actions</h3>
+      <ul id="detailActions"></ul>
+    </div>
+  </div>
+  <div style="margin-top:16px">
+    <h3 style="font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--accent-light);margin-bottom:8px">Score Breakdown</h3>
+    <div style="display:flex;gap:16px;flex-wrap:wrap" id="detailTags"></div>
+    <p style="margin-top:10px;font-size:13px;color:var(--text-muted)" id="detailRationale"></p>
+  </div>
+</div>
+
+<!-- ── Compare Tool ── -->
+<div class="card compare-section">
+  <h2><span class="icon">⚔️</span> Compare Contractors — Why One Ranks Above Another</h2>
+  <div class="compare-controls">
+    <select id="compareA"></select>
+    <span class="compare-vs">VS</span>
+    <select id="compareB"></select>
+    <button class="btn btn-sm" onclick="updateCompare()">Compare</button>
+  </div>
+  <div class="grid-2">
+    <div class="chart-container" style="height:340px"><canvas id="radarChart"></canvas></div>
+    <div class="chart-container" style="height:340px"><canvas id="barCompareChart"></canvas></div>
+  </div>
+  <div id="compareVerdict" style="margin-top:12px;padding:16px;background:var(--surface2);border-radius:8px;font-size:14px;display:none"></div>
+</div>
+
+<!-- ── Charts Row ── -->
+<div class="grid-2">
+  <div class="card">
+    <h2><span class="icon">🏆</span> Contractor Rankings — Score vs Reviews vs Rating</h2>
+    <div class="chart-container" style="height:380px"><canvas id="bubbleChart"></canvas></div>
+    <p style="font-size:12px;color:var(--text-muted);margin-top:8px">Bubble size = review count. X = sales readiness score. Y = rating. Color = HOT/WARM/COLD. Click any bubble for details.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon">📊</span> Score Distribution</h2>
+    <div class="chart-container" style="height:380px"><canvas id="scoreDistChart"></canvas></div>
+  </div>
+</div>
+
+<div class="grid-2">
+  <div class="card">
+    <h2><span class="icon">🗺️</span> Geographic Breakdown</h2>
+    <div class="chart-container" style="height:340px"><canvas id="geoChart"></canvas></div>
+  </div>
+  <div class="card">
+    <h2><span class="icon">🏅</span> Certification Distribution</h2>
+    <div class="chart-container" style="height:340px"><canvas id="certChart"></canvas></div>
+  </div>
+</div>
+
+<!-- ── Filters + Ranking Table ── -->
+<div class="card" style="margin-bottom:24px">
+  <h2><span class="icon">📋</span> All Contractors — Click any row for full insights</h2>
+  <div class="filters">
+    <label>State:</label>
+    <select id="filterState"><option value="">All</option></select>
+    <label>Min Score:</label>
+    <select id="filterScore">
+      <option value="0">All</option>
+      <option value="5">≥ 5 (WARM+)</option>
+      <option value="7">≥ 7</option>
+      <option value="8">≥ 8 (HOT)</option>
+    </select>
+    <label>Min Rating:</label>
+    <input type="number" id="filterRating" value="" placeholder="e.g. 4.5" step="0.1" min="0" max="5" style="width:80px">
+    <button class="btn btn-sm" onclick="applyFilters()">Filter</button>
+    <button class="btn btn-sm" style="background:var(--surface2);border:1px solid var(--border)" onclick="resetFilters()">Reset</button>
+    <span id="filterCount" style="font-size:13px;color:var(--text-muted);margin-left:auto"></span>
+  </div>
+  <div style="max-height:600px;overflow-y:auto">
+    <table class="ranking-table" id="rankingTable">
+      <thead>
+        <tr>
+          <th data-sort="rank" style="width:50px">#</th>
+          <th data-sort="name">Contractor</th>
+          <th data-sort="score" style="width:100px">Score</th>
+          <th data-sort="rating" style="width:100px">Rating</th>
+          <th data-sort="reviews" style="width:140px">Reviews</th>
+          <th data-sort="city">Location</th>
+          <th data-sort="size" style="width:100px">Size</th>
+        </tr>
+      </thead>
+      <tbody id="rankingBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ── Market Intelligence ── -->
+<div class="card market-card">
+  <h2><span class="icon">🌍</span> Market Intelligence</h2>
+  <div id="marketContent"><div class="loading"><div class="spinner"></div><p>Loading market data...</p></div></div>
+</div>
+
+</div><!-- /main -->
+
+<script>
+const API = window.location.origin;
+let allContractors = [];
+let allDetails = {};
+let marketData = null;
+let maxReviews = 1;
+
+// ── Fetch Helpers ──
+async function fetchJSON(url) {
+  const res = await fetch(API + url);
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+  return res.json();
+}
+
+function parseJSON(val) {
+  if (!val) return [];
+  if (typeof val === 'string') { try { return JSON.parse(val); } catch { return []; } }
+  return val;
+}
+
+function scoreBadge(score) {
+  if (score >= 8) return `<span class="score-badge score-hot">${score}/10 HOT</span>`;
+  if (score >= 5) return `<span class="score-badge score-warm">${score}/10 WARM</span>`;
+  return `<span class="score-badge score-cold">${score}/10 COLD</span>`;
+}
+
+function scoreColor(score) {
+  if (score >= 8) return 'rgba(34,197,94,';
+  if (score >= 5) return 'rgba(234,179,8,';
+  return 'rgba(239,68,68,';
+}
+
+// ── Init ──
+async function init() {
+  try {
+    const [stats, contractorsRes, market] = await Promise.all([
+      fetchJSON('/stats'),
+      fetchJSON('/contractors?limit=500'),
+      fetchJSON('/insights/market').catch(() => null),
+    ]);
+
+    // Stats
+    document.getElementById('statTotal').textContent = stats.total_contractors;
+    document.getElementById('statInsights').textContent = stats.contractors_with_insights;
+    document.getElementById('statAvgScore').textContent = stats.avg_sales_readiness_score;
+    document.getElementById('statRuns').textContent = stats.total_pipeline_runs;
+
+    allContractors = contractorsRes.contractors || [];
+    maxReviews = Math.max(...allContractors.map(c => c.review_count || 0), 1);
+
+    // Computed stats
+    const ratings = allContractors.filter(c => c.rating).map(c => c.rating);
+    const avgRating = ratings.length ? (ratings.reduce((a,b) => a+b, 0) / ratings.length).toFixed(2) : '—';
+    document.getElementById('statAvgRating').textContent = avgRating;
+    const hotCount = allContractors.filter(c => (c.sales_readiness_score || 0) >= 8).length;
+    document.getElementById('statHot').textContent = hotCount;
+
+    // Populate filters
+    const states = [...new Set(allContractors.map(c => c.state).filter(Boolean))].sort();
+    const stateSelect = document.getElementById('filterState');
+    states.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; stateSelect.appendChild(o); });
+
+    // Populate compare dropdowns
+    populateCompareDropdowns();
+
+    // Render everything
+    renderTable(allContractors);
+    renderBubbleChart(allContractors);
+    renderScoreDistribution(allContractors);
+    renderGeoChart(allContractors);
+    renderCertChart(allContractors);
+
+    if (market) {
+      marketData = market;
+      renderMarket(market);
+    }
+
+    // Auto-compare top 2
+    if (allContractors.length >= 2) {
+      document.getElementById('compareA').value = allContractors[0].contractor_id;
+      document.getElementById('compareB').value = allContractors[1].contractor_id;
+      updateCompare();
+    }
+
+  } catch (err) {
+    document.getElementById('dbStatus').textContent = '● Disconnected';
+    document.getElementById('dbStatus').style.color = 'var(--cold)';
+    console.error(err);
+  }
+}
+
+// ── Ranking Table ──
+function renderTable(contractors) {
+  const body = document.getElementById('rankingBody');
+  document.getElementById('filterCount').textContent = `Showing ${contractors.length} contractors`;
+  body.innerHTML = contractors.map((c, i) => {
+    const score = c.sales_readiness_score || 0;
+    const reviews = c.review_count || 0;
+    const pct = Math.round((reviews / maxReviews) * 100);
+    const color = scoreColor(score);
+    return `<tr onclick="showDetail('${c.contractor_id}')" data-id="${c.contractor_id}">
+      <td style="color:var(--text-muted)">${i + 1}</td>
+      <td><strong>${c.name || '—'}</strong></td>
+      <td>${scoreBadge(score)}</td>
+      <td>⭐ ${c.rating ?? '—'}</td>
+      <td><div class="bar-cell"><div class="bar-fill" style="width:${pct}%;background:${color}0.6);min-width:4px"></div><span style="font-size:13px">${reviews.toLocaleString()}</span></div></td>
+      <td style="color:var(--text-muted)">${c.city || ''}, ${c.state || ''}</td>
+      <td><span class="tag">${c.business_size_estimate || '—'}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+// ── Filters ──
+function applyFilters() {
+  let filtered = [...allContractors];
+  const state = document.getElementById('filterState').value;
+  const minScore = parseInt(document.getElementById('filterScore').value) || 0;
+  const minRating = parseFloat(document.getElementById('filterRating').value) || 0;
+  if (state) filtered = filtered.filter(c => c.state === state);
+  if (minScore) filtered = filtered.filter(c => (c.sales_readiness_score || 0) >= minScore);
+  if (minRating) filtered = filtered.filter(c => (c.rating || 0) >= minRating);
+  renderTable(filtered);
+  renderBubbleChart(filtered);
+}
+
+function resetFilters() {
+  document.getElementById('filterState').value = '';
+  document.getElementById('filterScore').value = '0';
+  document.getElementById('filterRating').value = '';
+  renderTable(allContractors);
+  renderBubbleChart(allContractors);
+}
+
+// ── Detail Panel ──
+async function showDetail(id) {
+  const panel = document.getElementById('detailPanel');
+  panel.classList.add('visible');
+  panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  // Highlight row
+  document.querySelectorAll('.ranking-table tr').forEach(tr => tr.classList.remove('selected'));
+  const row = document.querySelector(`tr[data-id="${id}"]`);
+  if (row) row.classList.add('selected');
+
+  try {
+    const data = await fetchJSON(`/contractors/${id}`);
+    allDetails[id] = data;
+
+    const insight = data.insight || {};
+    const score = insight.sales_readiness_score || 0;
+
+    document.getElementById('detailName').textContent = data.name || '—';
+    document.getElementById('detailMeta').textContent = `${data.city || ''}, ${data.state || ''} · ${data.phone || ''} · ID: ${data.contractor_id}`;
+    document.getElementById('detailScoreBadge').innerHTML = scoreBadge(score).replace(/<[^>]*>/g, m => m);
+    document.getElementById('detailScoreBadge').className = `score-badge ${score >= 8 ? 'score-hot' : score >= 5 ? 'score-warm' : 'score-cold'}`;
+    document.getElementById('detailScoreBadge').textContent = `${score}/10 ${score >= 8 ? 'HOT' : score >= 5 ? 'WARM' : 'COLD'}`;
+
+    document.getElementById('detailSummary').textContent = insight.summary || 'No summary available.';
+    document.getElementById('detailRationale').textContent = insight.sales_readiness_rationale || '';
+
+    // Tags
+    const tags = parseJSON(insight.industry_tags);
+    const certs = (data.certifications || []).map(c => c.name);
+    document.getElementById('detailTags').innerHTML =
+      [...tags, ...certs, insight.business_size_estimate].filter(Boolean)
+        .map(t => `<span class="tag">${t}</span>`).join('');
+
+    // Talking points
+    const tps = parseJSON(insight.talking_points);
+    document.getElementById('detailTalkingPoints').innerHTML = tps.map(tp =>
+      `<li><div class="tp-hook">${tp.hook || ''}</div><div class="tp-detail">${tp.detail || ''}</div></li>`
+    ).join('') || '<li style="color:var(--text-muted)">None available</li>';
+
+    // Pain points
+    const pps = parseJSON(insight.pain_points);
+    document.getElementById('detailPainPoints').innerHTML = pps.map(p =>
+      `<li>⚠️ ${p}</li>`
+    ).join('') || '<li style="color:var(--text-muted)">None available</li>';
+
+    // Signals
+    const sigs = parseJSON(insight.opportunity_signals);
+    document.getElementById('detailSignals').innerHTML = sigs.map(s =>
+      `<li>📈 ${s}</li>`
+    ).join('') || '<li style="color:var(--text-muted)">None available</li>';
+
+    // Actions
+    const acts = parseJSON(insight.recommended_actions);
+    document.getElementById('detailActions').innerHTML = acts.map((a, i) =>
+      `<li><strong>${i + 1}.</strong> ${a}</li>`
+    ).join('') || '<li style="color:var(--text-muted)">None available</li>';
+
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+function closeDetail() {
+  document.getElementById('detailPanel').classList.remove('visible');
+  document.querySelectorAll('.ranking-table tr').forEach(tr => tr.classList.remove('selected'));
+}
+
+// ── Compare ──
+function populateCompareDropdowns() {
+  ['compareA', 'compareB'].forEach(id => {
+    const sel = document.getElementById(id);
+    sel.innerHTML = allContractors.map(c =>
+      `<option value="${c.contractor_id}">${c.name} (${c.sales_readiness_score || 0}/10)</option>`
+    ).join('');
+  });
+}
+
+let radarChart = null, barCompareChart = null;
+
+function updateCompare() {
+  const idA = document.getElementById('compareA').value;
+  const idB = document.getElementById('compareB').value;
+  const a = allContractors.find(c => c.contractor_id === idA);
+  const b = allContractors.find(c => c.contractor_id === idB);
+  if (!a || !b) return;
+
+  const nameA = a.name?.split(' ').slice(0, 2).join(' ') || 'A';
+  const nameB = b.name?.split(' ').slice(0, 2).join(' ') || 'B';
+
+  // Normalize all metrics to a 0–10 scale for the radar chart
+  const maxRev = maxReviews || 1;
+
+  function normScore(val) { return Math.min(10, val || 0); }                          // already 0-10
+  function normRating(val) { return Math.min(10, ((val || 0) / 5) * 10); }            // 5.0 → 10, 4.5 → 9
+  function normReviews(val) { return Math.min(10, ((val || 0) / maxRev) * 10); }      // fraction of max → 0-10
+  function normCert(c) {                                                               // President's Club → 10, Master Elite → 8, else → 5
+    const tags = parseJSON(c.industry_tags || '[]').join(' ').toLowerCase();
+    if ((c.sales_readiness_score || 0) >= 8) return 10;
+    if ((c.sales_readiness_score || 0) >= 6) return 7;
+    return 5;
+  }
+
+  const metricsA = {
+    score: normScore(a.sales_readiness_score),
+    rating: normRating(a.rating),
+    reviews: normReviews(a.review_count),
+    certTier: normCert(a),
+  };
+  const metricsB = {
+    score: normScore(b.sales_readiness_score),
+    rating: normRating(b.rating),
+    reviews: normReviews(b.review_count),
+    certTier: normCert(b),
+  };
+
+  // Radar
+  if (radarChart) radarChart.destroy();
+  radarChart = new Chart(document.getElementById('radarChart'), {
+    type: 'radar',
+    data: {
+      labels: ['Sales Score', 'Rating', 'Review Volume', 'Certification Tier'],
+      datasets: [
+        { label: nameA, data: [metricsA.score, metricsA.rating, metricsA.reviews, metricsA.certTier], borderColor: 'rgba(99,102,241,0.9)', backgroundColor: 'rgba(99,102,241,0.15)', pointBackgroundColor: 'rgb(99,102,241)', borderWidth: 2 },
+        { label: nameB, data: [metricsB.score, metricsB.rating, metricsB.reviews, metricsB.certTier], borderColor: 'rgba(6,182,212,0.9)', backgroundColor: 'rgba(6,182,212,0.15)', pointBackgroundColor: 'rgb(6,182,212)', borderWidth: 2 },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { r: { beginAtZero: true, max: 10, ticks: { display: false }, grid: { color: 'rgba(45,48,68,0.8)' }, pointLabels: { color: '#9298a8', font: { size: 12 } } } },
+      plugins: { legend: { labels: { color: '#e4e4e7' } } }
+    }
+  });
+
+  // Side-by-side bar — all normalized to 0-10, with actual values as labels
+  const rawA = [a.sales_readiness_score || 0, a.rating || 0, a.review_count || 0, metricsA.certTier];
+  const rawB = [b.sales_readiness_score || 0, b.rating || 0, b.review_count || 0, metricsB.certTier];
+  const normA = [metricsA.score, metricsA.rating, metricsA.reviews, metricsA.certTier];
+  const normB = [metricsB.score, metricsB.rating, metricsB.reviews, metricsB.certTier];
+
+  if (barCompareChart) barCompareChart.destroy();
+  barCompareChart = new Chart(document.getElementById('barCompareChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Score', 'Rating', 'Reviews', 'Cert Tier'],
+      datasets: [
+        { label: nameA, data: normA, raw: rawA, backgroundColor: 'rgba(99,102,241,0.7)', borderColor: 'rgb(99,102,241)', borderWidth: 1, borderRadius: 6 },
+        { label: nameB, data: normB, raw: rawB, backgroundColor: 'rgba(6,182,212,0.7)', borderColor: 'rgb(6,182,212)', borderWidth: 1, borderRadius: 6 },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+      scales: {
+        x: { min: 0, max: 10, title: { display: true, text: 'Normalized (0-10)', color: '#9298a8', font: { size: 11 } }, grid: { color: 'rgba(45,48,68,0.5)' }, ticks: { color: '#9298a8' } },
+        y: { grid: { display: false }, ticks: { color: '#e4e4e7', font: { size: 13 } } },
+      },
+      plugins: {
+        legend: { labels: { color: '#e4e4e7' } },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => {
+              const raw = ctx.dataset.raw[ctx.dataIndex];
+              const units = ['/ 10', '/ 5', ' reviews', '/ 10'][ctx.dataIndex];
+              return `${ctx.dataset.label}: ${raw}${units}`;
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Verdict
+  const verdict = document.getElementById('compareVerdict');
+  verdict.style.display = 'block';
+  const winner = (a.sales_readiness_score || 0) >= (b.sales_readiness_score || 0) ? a : b;
+  const loser = winner === a ? b : a;
+  const reasons = [];
+  if ((winner.review_count || 0) > (loser.review_count || 0))
+    reasons.push(`<strong>${(winner.review_count || 0).toLocaleString()}</strong> reviews vs ${(loser.review_count || 0).toLocaleString()} — higher social proof and market presence`);
+  if ((winner.rating || 0) > (loser.rating || 0))
+    reasons.push(`<strong>${winner.rating}</strong> star rating vs ${loser.rating} — better customer satisfaction`);
+  if ((winner.rating || 0) === (loser.rating || 0) && (winner.review_count || 0) > (loser.review_count || 0))
+    reasons.push(`Same ${winner.rating}-star rating but significantly more reviews — proven at scale`);
+
+  const certW = parseJSON(winner.industry_tags || '[]');
+  reasons.push(`Located in <strong>${winner.city}, ${winner.state}</strong> — ${winner.state === 'NJ' ? 'strong NJ market coverage' : 'NY market presence'}`);
+
+  verdict.innerHTML = `<strong style="color:var(--accent-light)">${winner.name}</strong> ranks higher because:<br><ul style="margin-top:8px;padding-left:20px">${reasons.map(r => `<li style="margin:4px 0;font-size:13px">${r}</li>`).join('')}</ul>`;
+}
+
+// ── Bubble Chart ──
+let bubbleChartInstance = null;
+function renderBubbleChart(contractors) {
+  if (bubbleChartInstance) bubbleChartInstance.destroy();
+  const datasets = contractors.map(c => {
+    const score = c.sales_readiness_score || 0;
+    const col = scoreColor(score);
+    return {
+      label: c.name,
+      data: [{ x: score, y: c.rating || 0, r: Math.max(4, Math.sqrt(c.review_count || 1) * 1.5) }],
+      backgroundColor: col + '0.5)',
+      borderColor: col + '0.9)',
+      borderWidth: 1,
+      contractorId: c.contractor_id,
+    };
+  });
+
+  bubbleChartInstance = new Chart(document.getElementById('bubbleChart'), {
+    type: 'bubble',
+    data: { datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: {
+        x: { title: { display: true, text: 'Sales Readiness Score', color: '#9298a8' }, min: 0, max: 11, grid: { color: 'rgba(45,48,68,0.5)' }, ticks: { color: '#9298a8' } },
+        y: { title: { display: true, text: 'Star Rating', color: '#9298a8' }, min: 0, max: 5.5, grid: { color: 'rgba(45,48,68,0.5)' }, ticks: { color: '#9298a8' } },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => {
+              const c = contractors[ctx.datasetIndex];
+              return `${c.name}: Score ${c.sales_readiness_score}/10, ${c.rating}★, ${c.review_count} reviews`;
+            }
+          }
+        }
+      },
+      onClick: (evt, elements) => {
+        if (elements.length) {
+          const idx = elements[0].datasetIndex;
+          showDetail(contractors[idx].contractor_id);
+        }
+      }
+    }
+  });
+}
+
+// ── Score Distribution ──
+function renderScoreDistribution(contractors) {
+  const dist = {};
+  for (let i = 1; i <= 10; i++) dist[i] = 0;
+  contractors.forEach(c => { const s = c.sales_readiness_score || 0; if (s > 0) dist[s]++; });
+
+  new Chart(document.getElementById('scoreDistChart'), {
+    type: 'bar',
+    data: {
+      labels: Object.keys(dist).map(k => `${k}/10`),
+      datasets: [{
+        data: Object.values(dist),
+        backgroundColor: Object.keys(dist).map(k => {
+          const s = parseInt(k);
+          if (s >= 8) return 'rgba(34,197,94,0.7)';
+          if (s >= 5) return 'rgba(234,179,8,0.7)';
+          return 'rgba(239,68,68,0.7)';
+        }),
+        borderRadius: 6,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#9298a8' } },
+        y: { title: { display: true, text: '# Contractors', color: '#9298a8' }, grid: { color: 'rgba(45,48,68,0.5)' }, ticks: { color: '#9298a8', stepSize: 1 } },
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+}
+
+// ── Geo Chart ──
+function renderGeoChart(contractors) {
+  const cityCounts = {};
+  contractors.forEach(c => {
+    const key = `${c.city || '?'}, ${c.state || '?'}`;
+    cityCounts[key] = (cityCounts[key] || 0) + 1;
+  });
+  const sorted = Object.entries(cityCounts).sort((a, b) => b[1] - a[1]).slice(0, 12);
+
+  new Chart(document.getElementById('geoChart'), {
+    type: 'bar',
+    data: {
+      labels: sorted.map(([k]) => k),
+      datasets: [{
+        data: sorted.map(([, v]) => v),
+        backgroundColor: sorted.map((_, i) => `hsla(${220 + i * 15}, 70%, 60%, 0.7)`),
+        borderRadius: 6,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+      scales: {
+        x: { grid: { color: 'rgba(45,48,68,0.5)' }, ticks: { color: '#9298a8', stepSize: 1 } },
+        y: { grid: { display: false }, ticks: { color: '#e4e4e7', font: { size: 11 } } },
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+}
+
+// ── Cert Chart ──
+function renderCertChart(contractors) {
+  const certCounts = {};
+  contractors.forEach(c => {
+    const tags = parseJSON(c.industry_tags || '[]');
+    tags.forEach(t => { certCounts[t] = (certCounts[t] || 0) + 1; });
+  });
+  // Also count by size
+  const sizeCounts = {};
+  contractors.forEach(c => {
+    const s = c.business_size_estimate || 'Unknown';
+    sizeCounts[s] = (sizeCounts[s] || 0) + 1;
+  });
+  const labels = [...Object.keys(sizeCounts)];
+  const data = [...Object.values(sizeCounts)];
+
+  new Chart(document.getElementById('certChart'), {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: ['rgba(99,102,241,0.7)', 'rgba(6,182,212,0.7)', 'rgba(249,115,22,0.7)', 'rgba(236,72,153,0.7)', 'rgba(34,197,94,0.7)'],
+        borderColor: 'var(--surface)',
+        borderWidth: 3,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'right', labels: { color: '#e4e4e7', padding: 16, font: { size: 13 } } }
+      }
+    }
+  });
+}
+
+// ── Market Panel ──
+function renderMarket(m) {
+  const clusters = parseJSON(m.geographic_clusters);
+  const opps = parseJSON(m.market_opportunities);
+  const tops = parseJSON(m.top_performers);
+
+  document.getElementById('marketContent').innerHTML = `
+    <p><strong>Region:</strong> ${m.region || '—'}</p>
+    <p style="margin-top:12px">${m.market_summary || ''}</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px">
+      <div>
+        <h3 style="font-size:13px;text-transform:uppercase;color:var(--accent-light);margin-bottom:8px">Geographic Clusters</h3>
+        <ul style="list-style:none;padding:0">${clusters.map(c => `<li style="padding:4px 0;font-size:13px;color:var(--text-muted)">📍 ${c}</li>`).join('')}</ul>
+      </div>
+      <div>
+        <h3 style="font-size:13px;text-transform:uppercase;color:var(--accent-light);margin-bottom:8px">Top Performers</h3>
+        <ul style="list-style:none;padding:0">${tops.map(t => `<li style="padding:4px 0;font-size:13px;color:var(--text-muted)">🏆 ${t}</li>`).join('')}</ul>
+      </div>
+    </div>
+    <div style="margin-top:16px">
+      <h3 style="font-size:13px;text-transform:uppercase;color:var(--accent-light);margin-bottom:8px">Market Opportunities</h3>
+      <ul style="list-style:none;padding:0">${opps.map(o => `<li style="padding:4px 0;font-size:13px;color:var(--text-muted)">💡 ${o}</li>`).join('')}</ul>
+    </div>
+    <div style="margin-top:16px">
+      <h3 style="font-size:13px;text-transform:uppercase;color:var(--accent-light);margin-bottom:8px">Competitive Landscape</h3>
+      <p style="font-size:13px">${m.competitive_landscape || ''}</p>
+    </div>
+  `;
+}
+
+// ── Sort Table ──
+let sortDir = {};
+document.querySelectorAll('.ranking-table th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const key = th.dataset.sort;
+    sortDir[key] = !(sortDir[key] ?? true);
+    const dir = sortDir[key] ? 1 : -1;
+    const sorted = [...allContractors].sort((a, b) => {
+      if (key === 'name') return dir * (a.name || '').localeCompare(b.name || '');
+      if (key === 'score') return dir * ((a.sales_readiness_score || 0) - (b.sales_readiness_score || 0));
+      if (key === 'rating') return dir * ((a.rating || 0) - (b.rating || 0));
+      if (key === 'reviews') return dir * ((a.review_count || 0) - (b.review_count || 0));
+      if (key === 'city') return dir * (`${a.city},${a.state}`).localeCompare(`${b.city},${b.state}`);
+      if (key === 'size') return dir * (a.business_size_estimate || '').localeCompare(b.business_size_estimate || '');
+      return 0;
+    });
+    renderTable(sorted);
+  });
+});
+
+// ── Boot ──
+init();
+</script>
+</body>
+</html>
